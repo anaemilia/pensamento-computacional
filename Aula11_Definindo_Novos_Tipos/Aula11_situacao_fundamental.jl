@@ -16,22 +16,27 @@ Geisa tinha uma caixa com 35 chocolates. Comeu 2 ontem e 5 hoje. Quantos chocola
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — criar um tipo próprio para organizar os dados.** Em vez de variáveis soltas, definimos um novo tipo `Caixa` que agrupa o estado e as transformações — um passo rumo à criação de tipos de dados personalizados.
+**Pensamento Computacional em jogo — criar um tipo próprio para organizar os dados.** Em vez de variáveis soltas, definimos um novo tipo `CaixaDeChocolates` que agrupa o estoque e os consumos.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-struct Caixa
-    estoque::Int
-    consumido_ontem::Int
-    consumido_hoje::Int
+struct CaixaDeChocolates
+    qtdEstoque::Int
+    qtdConsumidaOntem::Int
+    qtdConsumidaHoje::Int
 end
 
-caixa_da_geisa = Caixa(35, 2, 5)
-chocolates_restantes = caixa_da_geisa.estoque - caixa_da_geisa.consumido_ontem - caixa_da_geisa.consumido_hoje
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+caixaDaGeisa = CaixaDeChocolates(35, 2, 5)
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+qtdChocolatesRestantes = caixaDaGeisa.qtdEstoque - caixaDaGeisa.qtdConsumidaOntem - caixaDaGeisa.qtdConsumidaHoje
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000

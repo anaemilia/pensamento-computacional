@@ -16,20 +16,28 @@ Marcus e Jardel colecionam carrinhos em miniatura. Marcus tem 23 carrinhos e Jar
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — a diferença como transformação entre dois estados.** Em computação, comparar dois valores é calcular a transformação que leva de um ao outro. Marcus e Jardel são dois "estados"; a diferença entre eles é a transformação que os separa.
+**Pensamento Computacional em jogo — a diferença como transformação entre dois estados.** Marcus e Jardel são dois "estados"; calculamos a transformação que leva de um ao outro.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-# a transformação é modelada como uma função que recebe dois estados e devolve a transformação entre eles
-transformar(estado_1, estado_2) = estado_1 - estado_2
+qtdCarrinhosDeMarcus = 23   # estado 1
 
-carrinhos_de_marcus = 23
-carrinhos_de_jardel = 11
-transformacao_entre_estados = transformar(carrinhos_de_marcus, carrinhos_de_jardel)
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdCarrinhosDeJardel = 11   # estado 2
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+# a transformação entre dois estados quaisquer
+calcularTransformacaoEntreEstados(estado1, estado2) = estado1 - estado2
+
+# ╔═╡ 00000006-0000-4000-8000-000000000000
+diferencaAMenosDeJardel = calcularTransformacaoEntreEstados(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000
+# ╠═00000006-0000-4000-8000-000000000000

@@ -16,16 +16,27 @@ Manuel ganhou de Antônio 12 figurinhas do Pokémon. Mais tarde ganhou mais 5 fi
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — guardar dados repetidos numa estrutura só.** Em vez de uma variável para cada transformação, usamos um **array**: uma estrutura de dados que guarda várias transformações da mesma categoria e permite somá-las de uma vez com `sum`.
+**Pensamento Computacional em jogo — guardar dados repetidos numa estrutura só.** Cada transformação (ganho) é um elemento de um **array**, uma estrutura que permite somar todos de uma vez com `sum`.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-transformacoes = [12, 5]   # array com cada transformação (ganho) registrada
-total_ganho = sum(transformacoes)
+qtdFiguGanhasDeAntonio = 12
+
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdFiguGanhasDeAninha = 5
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+transformacoesDeFigurinhas = [qtdFiguGanhasDeAntonio, qtdFiguGanhasDeAninha]
+
+# ╔═╡ 00000006-0000-4000-8000-000000000000
+qtdFiguTotalGanhas = sum(transformacoesDeFigurinhas)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000
+# ╠═00000006-0000-4000-8000-000000000000

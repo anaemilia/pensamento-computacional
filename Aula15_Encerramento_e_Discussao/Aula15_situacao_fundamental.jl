@@ -16,22 +16,23 @@ Julia tem 3 bonecas a mais que Maria. A mãe de Maria comprou mais 5 bonecas par
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — decompor, abstrair e compor a solução final.** Encerramos o semestre decompondo o problema em duas partes (a diferença inicial e a transformação), abstraindo cada uma numa variável, e compondo o resultado final — o mesmo processo praticado aula a aula.
+**Pensamento Computacional em jogo — decompor, abstrair e compor a solução final.** Decompomos o problema em duas partes conhecidas, cada uma em sua célula, e compomos o resultado final somando-as com o sinal certo.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-# decompomos o problema em duas funções menores...
-diferenca_inicial(julia_a_mais) = julia_a_mais
-transformacao(compra) = compra
+diferencaInicialDeJuliaAMais = 3   # decomposição: parte 1
 
-# ...e as compomos numa função final, juntando os conceitos do semestre
-nova_diferenca(julia_a_mais, compra) = transformacao(compra) - diferenca_inicial(julia_a_mais)
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdBonecasCompradasParaMaria = 5   # decomposição: parte 2
 
-nova_diferenca_maria_a_mais = nova_diferenca(3, 5)
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+novaDiferencaDeMariaAMais = qtdBonecasCompradasParaMaria - diferencaInicialDeJuliaAMais   # composição final
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000

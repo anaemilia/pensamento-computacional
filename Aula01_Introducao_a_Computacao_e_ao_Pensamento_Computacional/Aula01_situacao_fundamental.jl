@@ -16,20 +16,23 @@ Maria faz coleção de figurinhas. Ela tem 32 figurinhas. Sua mãe a presenteou 
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — entrada, processamento e saída.** Antes de qualquer conta, um computador precisa que a situação seja traduzida em dados: uma *entrada* (32 e 22), um *processo* (somar) e uma *saída* (o total). Só depois disso ela se torna uma linha de código.
+**Pensamento Computacional em jogo — entrada, processamento e saída.** Cada célula abaixo é uma fase: a *entrada* (os dados que já sabíamos), o *processo* (a operação) e a *saída* (o resultado). Execute uma célula por vez e observe o resultado aparecer antes de ir para a próxima.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-# o próprio código separa as três fases de "computar":
-entrada(a, b) = (a, b)              # ENTRADA: junta os dados brutos
-processar((a, b)) = a + b            # PROCESSO: a operação que transforma dados
-saida(resultado) = resultado         # SAÍDA: o que é devolvido ao usuário
+qtdFiguIniciais = 32   # entrada 1
 
-saida(processar(entrada(32, 22)))
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdFiguRecebidas = 22   # entrada 2
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+qtdFiguTotal = qtdFiguIniciais + qtdFiguRecebidas   # processo + saída
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000

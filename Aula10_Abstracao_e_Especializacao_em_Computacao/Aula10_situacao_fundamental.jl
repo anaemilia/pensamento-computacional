@@ -16,21 +16,28 @@ Claudia tem 15 reais. Ela tem 7 reais a mais que Joana. Quantos reais Joana tem?
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — abstrair uma regra e depois especializá-la.** Abstraímos a regra geral de comparação `referente = referido - diferenca` (ignorando nomes e valores específicos). Depois a *especializamos*, aplicando-a a Claudia e Joana.
+**Pensamento Computacional em jogo — abstrair uma regra e depois especializá-la.** Primeiro escrevemos a regra geral, sem valores específicos (abstração). Depois a aplicamos a Claudia e Joana (especialização).
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-# abstração: regra geral, válida para qualquer comparação "a mais que"
-referente(referido, diferenca) = referido - diferenca
+dinheiroDeClaudia = 15
 
-# especialização: aplicando a regra abstrata a este caso concreto
-dinheiro_de_claudia = 15
-diferenca = 7
-dinheiro_de_joana = referente(dinheiro_de_claudia, diferenca)
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+diferencaDeClaudiaAMais = 7
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+# abstração: regra geral, válida para qualquer comparação "a mais que"
+calcularReferente(qtdDoReferido, diferenca) = qtdDoReferido - diferenca
+
+# ╔═╡ 00000006-0000-4000-8000-000000000000
+dinheiroDeJoana = calcularReferente(dinheiroDeClaudia, diferencaDeClaudiaAMais)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000
+# ╠═00000006-0000-4000-8000-000000000000

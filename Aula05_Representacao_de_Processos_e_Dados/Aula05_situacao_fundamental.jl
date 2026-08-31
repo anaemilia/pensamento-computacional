@@ -16,22 +16,23 @@ Pedro coleciona selos. Hoje ganhou 23 selos, ficando com 417 selos na sua coleç
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — escolher como representar dados e o processo que os liga.** Podemos representar o problema com variáveis nomeadas (como abaixo) ou com uma tupla `(transformação, estado_final)`. A escolha de representação não muda a resposta, mas muda a clareza do código.
+**Pensamento Computacional em jogo — escolher como representar dados e o processo que os liga.** Cada quantidade da situação vira uma variável com nome que representa seu papel no problema — isso é decidir a representação dos dados antes de calcular.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-# representação 1: variáveis nomeadas
-transformacao = 23
-estado_final = 417
-estado_inicial = estado_final - transformacao
+qtdSelosGanhosHoje = 23
 
-# representação 2: o mesmo processo, guardado como uma tupla
-dados = (transformacao = 23, estado_final = 417)
-dados.estado_final - dados.transformacao
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdSelosNaColecaoAtual = 417
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+qtdSelosAntesDeHoje = qtdSelosNaColecaoAtual - qtdSelosGanhosHoje
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000

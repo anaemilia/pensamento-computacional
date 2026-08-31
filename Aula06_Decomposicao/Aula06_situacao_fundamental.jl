@@ -16,21 +16,23 @@ Paulo tem 17 bolas azuis e vermelhas. Se ele tem 11 bolas azuis, quantas bolas v
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — decompor o todo em partes.** Decomposição é quebrar um problema complexo em pedaços menores e tratáveis. Aqui, o "todo" (17 bolas) é decomposto em duas partes: azuis (conhecida) e vermelhas (a calcular).
+**Pensamento Computacional em jogo — decompor o todo em partes.** O "todo" (17 bolas) é decomposto em duas partes conhecidas separadamente: a parte azul e a parte vermelha, cada uma em sua própria célula.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-# a decomposição é modelada como uma função que separa o todo em duas partes
-decompor(total, parte_conhecida) = (parte_conhecida, total - parte_conhecida)
+qtdBolasTotal = 17   # o todo
 
-total_de_bolas = 17
-bolas_azuis = 11
-(azuis, bolas_vermelhas) = decompor(total_de_bolas, bolas_azuis)
-bolas_vermelhas
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdBolasAzuis = 11   # parte 1, conhecida
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+qtdBolasVermelhas = qtdBolasTotal - qtdBolasAzuis   # parte 2, decomposta do todo
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000

@@ -16,18 +16,23 @@ João jogou duas partidas de bila. Na segunda ele ganhou 12 bolas. Ao final das 
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — associar uma ação a uma categoria de dado.** "Ganhar numa partida" é uma ação que só faz sentido ligada à categoria `Partida`. Modelamos cada partida como um item de uma categoria e aplicamos a ação (soma) sobre a categoria toda.
+**Pensamento Computacional em jogo — associar uma ação a uma categoria de dado.** "Ganhar numa partida" só faz sentido ligado à categoria `partida`. Guardamos o ganho de cada partida conhecida numa categoria antes de calcular o que falta.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-partidas = [:desconhecida, :segunda]      # categoria: partidas jogadas
-ganhos = Dict(:segunda => 12)              # ação "ganhar" ligada a cada partida conhecida
-total_ganho = 22
-ganho_na_primeira_partida = total_ganho - ganhos[:segunda]
+ganhoPorPartida = Dict(:segundaPartida => 12)   # ação ligada à categoria "partida"
+
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdGanhoTotalNasDuasPartidas = 22
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+qtdGanhoNaPrimeiraPartida = qtdGanhoTotalNasDuasPartidas - ganhoPorPartida[:segundaPartida]
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000

@@ -16,20 +16,28 @@ Paulo tem seis bolas. José tem oito bolas a mais que Paulo. Quantas bolas tem J
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — generalizar uma solução para qualquer entrada.** Em vez de calcular só para Paulo e José, escrevemos uma função que resolve *qualquer* comparação "a mais que": `referido(referente, diferenca) = referente + diferenca`. A função generaliza o cálculo para além deste caso específico.
+**Pensamento Computacional em jogo — generalizar uma solução para qualquer entrada.** Em vez de calcular só para Paulo e José, definimos uma função que resolve qualquer comparação "a mais que", e depois a aplicamos a este caso.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-bolas_de_paulo = 6
-diferenca = 8
+qtdBolasDePaulo = 6
 
-# solução generalizada para qualquer comparação "a mais que":
-referido(referente, diferenca) = referente + diferenca
-bolas_de_jose = referido(bolas_de_paulo, diferenca)
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+diferencaDeJoseAMais = 8
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+# solução generalizada para qualquer comparação "a mais que"
+calcularReferido(qtdDoReferente, diferenca) = qtdDoReferente + diferenca
+
+# ╔═╡ 00000006-0000-4000-8000-000000000000
+qtdBolasDeJose = calcularReferido(qtdBolasDePaulo, diferencaDeJoseAMais)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000
+# ╠═00000006-0000-4000-8000-000000000000

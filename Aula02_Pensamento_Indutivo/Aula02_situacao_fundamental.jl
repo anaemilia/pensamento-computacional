@@ -16,21 +16,32 @@ Maria foi fazer compras na feira com R$ 25,00. Gastou R$ 18,00 comprando frutas 
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — induzir a regra geral a partir de um caso.** Resolvendo este exemplo (25 − 18), o aluno percebe um padrão: *dinheiro que sobra = dinheiro que tinha − dinheiro gasto*. É esse salto do caso particular para a regra geral que o pensamento indutivo pratica.
+**Pensamento Computacional em jogo — induzir a regra geral a partir de um caso.** Primeiro resolvemos o caso concreto. Depois, observando o padrão, escrevemos a regra geral que ele revela: *sobra = valor inicial − valor gasto*.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-dinheiro_inicial = 25
-gasto_na_feira = 18
-dinheiro_final = dinheiro_inicial - gasto_na_feira
+dinheiroInicialNaFeira = 25
 
-# regra geral induzida a partir deste caso:
-sobra(inicial, gasto) = inicial - gasto
-sobra(dinheiro_inicial, gasto_na_feira)
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+gastoComFrutasEVerduras = 18
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+dinheiroFinalDeMaria = dinheiroInicialNaFeira - gastoComFrutasEVerduras
+
+# ╔═╡ 00000006-0000-4000-8000-000000000000
+# regra geral induzida a partir do caso acima
+sobraDoDinheiro(valorInicial, valorGasto) = valorInicial - valorGasto
+
+# ╔═╡ 00000007-0000-4000-8000-000000000000
+sobraDoDinheiro(dinheiroInicialNaFeira, gastoComFrutasEVerduras)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000
+# ╠═00000006-0000-4000-8000-000000000000
+# ╠═00000007-0000-4000-8000-000000000000

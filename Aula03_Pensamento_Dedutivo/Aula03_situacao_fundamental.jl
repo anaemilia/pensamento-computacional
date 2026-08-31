@@ -16,20 +16,28 @@ Leandro tinha 10 balas. Lucas, seu irmão, pegou algumas balas escondidas de Lea
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Pensamento Computacional em jogo — deduzir um caso a partir de uma regra geral.** Já sabemos a regra *estado_final = estado_inicial − transformação*. Pensamento dedutivo é aplicar essa regra já conhecida a um caso novo para descobrir a transformação escondida: `10 − transformação = 6`.
+**Pensamento Computacional em jogo — deduzir um caso a partir de uma regra geral.** Já conhecemos a regra *transformação = estado inicial − estado final*. Pensamento dedutivo é aplicar essa regra já sabida a este caso novo.
 
-Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
+Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-estado_inicial = 10
-estado_final = 6
+qtdBalasDeLeandroAntes = 10
 
-# regra geral já conhecida, aplicada dedutivamente a este caso:
-transformacao(inicial, final) = inicial - final
-balas_que_lucas_comeu = transformacao(estado_inicial, estado_final)
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+qtdBalasDeLeandroDepois = 6
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+# regra geral já conhecida, aplicada dedutivamente a este caso
+calcularTransformacao(estadoInicial, estadoFinal) = estadoInicial - estadoFinal
+
+# ╔═╡ 00000006-0000-4000-8000-000000000000
+qtdBalasComidasPorLucas = calcularTransformacao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═00000004-0000-4000-8000-000000000000
+# ╠═00000005-0000-4000-8000-000000000000
+# ╠═00000006-0000-4000-8000-000000000000
