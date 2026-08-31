@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 00000001-0000-4000-8000-000000000000
 md"""
 # Atividade — Ensino Fundamental
-## Bonecas de Julia e Maria — comparação em duas etapas
+## Bonecas de Julia e Maria — encerramento: juntando os conceitos
 
 **Situação-problema:**
 
@@ -16,17 +16,20 @@ Julia tem 3 bonecas a mais que Maria. A mãe de Maria comprou mais 5 bonecas par
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Como isso vira código em Julia:**
-
-Encerramento: combina **comparação** (diferença inicial) com uma **transformação** (a compra), pedindo a nova diferença — encadeando os conceitos vistos ao longo do semestre.
+**Pensamento Computacional em jogo — decompor, abstrair e compor a solução final.** Encerramos o semestre decompondo o problema em duas partes (a diferença inicial e a transformação), abstraindo cada uma numa variável, e compondo o resultado final — o mesmo processo praticado aula a aula.
 
 Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-diferenca_inicial_julia_a_mais = 3
-compra_de_maria = 5
-nova_diferenca_maria_a_mais = compra_de_maria - diferenca_inicial_julia_a_mais
+# decompomos o problema em duas funções menores...
+diferenca_inicial(julia_a_mais) = julia_a_mais
+transformacao(compra) = compra
+
+# ...e as compomos numa função final, juntando os conceitos do semestre
+nova_diferenca(julia_a_mais, compra) = transformacao(compra) - diferenca_inicial(julia_a_mais)
+
+nova_diferenca_maria_a_mais = nova_diferenca(3, 5)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000

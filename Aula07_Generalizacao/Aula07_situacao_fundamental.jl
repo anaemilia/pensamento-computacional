@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 00000001-0000-4000-8000-000000000000
 md"""
 # Atividade — Ensino Fundamental
-## Bolas de Paulo e José — comparação, referido desconhecido
+## Bolas de Paulo e José — generalização
 
 **Situação-problema:**
 
@@ -16,9 +16,7 @@ Paulo tem seis bolas. José tem oito bolas a mais que Paulo. Quantas bolas tem J
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Como isso vira código em Julia:**
-
-É uma **comparação**: o referente (Paulo, 6) e a diferença (8 a mais) são conhecidos; o referido (José) é a incógnita. Generalizamos a regra: referido = referente + diferença.
+**Pensamento Computacional em jogo — generalizar uma solução para qualquer entrada.** Em vez de calcular só para Paulo e José, escrevemos uma função que resolve *qualquer* comparação "a mais que": `referido(referente, diferenca) = referente + diferenca`. A função generaliza o cálculo para além deste caso específico.
 
 Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
 """
@@ -26,7 +24,10 @@ Leia a situação, depois execute a célula de código abaixo (ou edite os núme
 # ╔═╡ 00000003-0000-4000-8000-000000000000
 bolas_de_paulo = 6
 diferenca = 8
-bolas_de_jose = bolas_de_paulo + diferenca
+
+# solução generalizada para qualquer comparação "a mais que":
+referido(referente, diferenca) = referente + diferenca
+bolas_de_jose = referido(bolas_de_paulo, diferenca)
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000

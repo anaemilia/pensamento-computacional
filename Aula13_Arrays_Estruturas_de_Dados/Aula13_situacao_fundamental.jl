@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 00000001-0000-4000-8000-000000000000
 md"""
 # Atividade — Ensino Fundamental
-## Figurinhas de Manuel — array de transformações positivas
+## Figurinhas de Manuel — arrays e estruturas de dados
 
 **Situação-problema:**
 
@@ -16,15 +16,13 @@ Manuel ganhou de Antônio 12 figurinhas do Pokémon. Mais tarde ganhou mais 5 fi
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-**Como isso vira código em Julia:**
-
-Cada transformação positiva pode ser guardada como um elemento de um **array**; o total ganho é a soma dos elementos — introduzindo estrutura de dados para várias transformações.
+**Pensamento Computacional em jogo — guardar dados repetidos numa estrutura só.** Em vez de uma variável para cada transformação, usamos um **array**: uma estrutura de dados que guarda várias transformações da mesma categoria e permite somá-las de uma vez com `sum`.
 
 Leia a situação, depois execute a célula de código abaixo (ou edite os números) para ver o Pluto calcular a resposta.
 """
 
 # ╔═╡ 00000003-0000-4000-8000-000000000000
-transformacoes = [12, 5]
+transformacoes = [12, 5]   # array com cada transformação (ganho) registrada
 total_ganho = sum(transformacoes)
 
 # ╔═╡ Cell order:
