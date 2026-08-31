@@ -11,7 +11,7 @@ md"""
 
 **Situação-problema:**
 
-Maria foi fazer compras na feira com R$ 25,00. Gastou R$ 18,00 comprando frutas e verduras. Com quantos reais Maria ficou após a feira?
+Maria foi fazer compras na feira com R\$ 25,00. Gastou R\$ 18,00 comprando frutas e verduras. Com quantos reais Maria ficou após a feira?
 
 *Categoria 2 — Transformação de medidas (Vergnaud)*
 """
@@ -21,42 +21,51 @@ HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
     <rect x="4" y="4" width="222" height="182" rx="10" fill="#fbfcfd" stroke="#4a5a6a" stroke-width="2"/>
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Antes</text>
-    <g transform="translate(115,110) scale(1)">
-    <circle cx="0" cy="-28" r="10" fill="#4a5a6a"/>
-    <line x1="0" y1="-18" x2="0" y2="14" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="-6" x2="-14" y2="6" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="-6" x2="14" y2="6" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="14" x2="-10" y2="34" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="14" x2="10" y2="34" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(115,80) scale(1.1)">
+    <ellipse cx="0" cy="40" rx="20" ry="10" fill="#000" opacity="0.08"/>
+    <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
+    <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
+    <path d="M -16 -18 Q -16 -30 0 -30 Q 16 -30 16 -18 Q 16 -24 0 -25 Q -16 -24 -16 -18 Z" fill="#3a2a1a"/>
+    <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
+    <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
+    <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <circle cx="-11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
+    <circle cx="11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
-  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R$25</text></g>
-    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Maria vai à feira com R$25</text>
+  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R\$25</text></g>
+    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Maria vai à feira com R\$25</text>
   </g><g transform="translate(238,0)">
     <rect x="4" y="4" width="222" height="182" rx="10" fill="#fbfcfd" stroke="#4a5a6a" stroke-width="2"/>
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Ação</text>
-    <g transform="translate(115,110) scale(1)">
-    <circle cx="0" cy="-28" r="10" fill="#4a5a6a"/>
-    <line x1="0" y1="-18" x2="0" y2="14" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="-6" x2="-14" y2="6" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="-6" x2="14" y2="6" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="14" x2="-10" y2="34" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="14" x2="10" y2="34" stroke="#4a5a6a" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(115,80) scale(1.1)">
+    <ellipse cx="0" cy="40" rx="20" ry="10" fill="#000" opacity="0.08"/>
+    <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
+    <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
+    <path d="M -16 -18 Q -16 -30 0 -30 Q 16 -30 16 -18 Q 16 -24 0 -25 Q -16 -24 -16 -18 Z" fill="#3a2a1a"/>
+    <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
+    <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
+    <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <circle cx="-11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
+    <circle cx="11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
-  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">-R$18</text></g>
+  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">-R\$18</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Compra frutas e verduras</text>
   </g><g transform="translate(476,0)">
     <rect x="4" y="4" width="222" height="182" rx="10" fill="#fbfcfd" stroke="#4a5a6a" stroke-width="2"/>
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Resultado</text>
-    <g transform="translate(115,110) scale(1.1)">
-    <circle cx="0" cy="-28" r="10" fill="#0e3550"/>
-    <line x1="0" y1="-18" x2="0" y2="14" stroke="#0e3550" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="-6" x2="-14" y2="6" stroke="#0e3550" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="-6" x2="14" y2="6" stroke="#0e3550" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="14" x2="-10" y2="34" stroke="#0e3550" stroke-width="4" stroke-linecap="round"/>
-    <line x1="0" y1="14" x2="10" y2="34" stroke="#0e3550" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(115,80) scale(1.15)">
+    <ellipse cx="0" cy="40" rx="20" ry="10" fill="#000" opacity="0.08"/>
+    <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
+    <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
+    <path d="M -16 -18 Q -16 -30 0 -30 Q 16 -30 16 -18 Q 16 -24 0 -25 Q -16 -24 -16 -18 Z" fill="#3a2a1a"/>
+    <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
+    <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
+    <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <circle cx="-11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
+    <circle cx="11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
-  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R$7</text></g>
-    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Fica com R$7</text>
+  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R\$7</text></g>
+    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Fica com R\$7</text>
   </g></svg>
 """)
 
@@ -64,13 +73,13 @@ HTML("""
 HTML("""
 <svg viewBox="0 0 480 130" width="100%" style="max-width:480px" xmlns="http://www.w3.org/2000/svg">
     <rect x="20" y="40" width="140" height="56" rx="8" fill="#eef2f6" stroke="#4a5a6a" stroke-width="1.5"/>
-    <text x="90" y="62" text-anchor="middle" font-size="13" fill="#1a2733" font-family="sans-serif" font-weight="600">R$25,00</text>
+    <text x="90" y="62" text-anchor="middle" font-size="13" fill="#1a2733" font-family="sans-serif" font-weight="600">R\$25,00</text>
     <text x="90" y="80" text-anchor="middle" font-size="11" fill="#3a4a58" font-family="sans-serif">Dinheiro inicial</text>
     <rect x="320" y="40" width="140" height="56" rx="8" fill="#dce8f0" stroke="#1f5c85" stroke-width="1.5"/>
-    <text x="390" y="62" text-anchor="middle" font-size="13" fill="#0e3550" font-family="sans-serif" font-weight="700">R$7,00</text>
+    <text x="390" y="62" text-anchor="middle" font-size="13" fill="#0e3550" font-family="sans-serif" font-weight="700">R\$7,00</text>
     <text x="390" y="80" text-anchor="middle" font-size="11" fill="#0e3550" font-family="sans-serif">Dinheiro final</text>
     <line x1="166" y1="68" x2="306" y2="68" stroke="#8a97a3" stroke-width="1.5" marker-end="url(#arrow)"/>
-    <text x="240" y="58" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">−R$18,00</text>
+    <text x="240" y="58" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">−R\$18,00</text>
     <text x="240" y="114" text-anchor="middle" font-size="11" fill="#5a3a1a" font-family="sans-serif">gasto na feira</text>
     <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8a97a3"/></marker></defs>
   </svg>
