@@ -117,7 +117,9 @@ qtdBorrachasVerdes = 2
 qtdBorrachasVermelhas = 5
 
 # ╔═╡ 00000008-0000-4000-8000-000000000000
-qtdTotalPorSomaDireta = qtdBorrachasAzuis + qtdBorrachasAmarelas + qtdBorrachasVerdes + qtdBorrachasVermelhas
+soma(a, b, c, d) = a + b + c + d   # função que soma quatro valores
+
+qtdTotalPorSomaDireta = soma(qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas)
 
 # ╔═╡ 00000009-0000-4000-8000-000000000000
 qtdBorrachasPorCor = [qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas]

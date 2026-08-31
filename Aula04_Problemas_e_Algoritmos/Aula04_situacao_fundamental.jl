@@ -108,7 +108,9 @@ qtdFofoletesMesPassado = 25   # passo 1: ler o estado inicial
 qtdFofoletesHoje = 34   # passo 2: ler o estado final
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-qtdFofoletesGanhas = qtdFofoletesHoje - qtdFofoletesMesPassado   # passo 3: calcular e responder
+subtracao(a, b) = a - b   # função que subtrai dois valores
+
+qtdFofoletesGanhas = subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado)   # passo 3: calcular e responder
 
 # ╔═╡ Cell order:
 # ╠═00000388-0000-4000-8000-000000000000

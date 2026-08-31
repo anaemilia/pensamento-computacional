@@ -111,7 +111,9 @@ end
 caixaDaGeisa = CaixaDeChocolates(35, 2, 5)
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-qtdChocolatesRestantes = caixaDaGeisa.qtdEstoque - caixaDaGeisa.qtdConsumidaOntem - caixaDaGeisa.qtdConsumidaHoje
+subtracao(a, b, c) = a - b - c   # função que subtrai duas quantidades de uma quantidade inicial
+
+qtdChocolatesRestantes = subtracao(caixaDaGeisa.qtdEstoque, caixaDaGeisa.qtdConsumidaOntem, caixaDaGeisa.qtdConsumidaHoje)
 
 # ╔═╡ Cell order:
 # ╠═0000038f-0000-4000-8000-000000000000

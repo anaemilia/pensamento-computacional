@@ -108,7 +108,9 @@ qtdSelosGanhosHoje = 23
 qtdSelosNaColecaoAtual = 417
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-qtdSelosAntesDeHoje = qtdSelosNaColecaoAtual - qtdSelosGanhosHoje
+subtracao(a, b) = a - b   # função que subtrai dois valores
+
+qtdSelosAntesDeHoje = subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje)
 
 # ╔═╡ Cell order:
 # ╠═00000389-0000-4000-8000-000000000000

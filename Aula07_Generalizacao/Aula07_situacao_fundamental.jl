@@ -121,10 +121,10 @@ diferencaDeJoseAMais = 8
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # solução generalizada para qualquer comparação "a mais que"
-calcularReferido(qtdDoReferente, diferenca) = qtdDoReferente + diferenca
+soma(qtdDoReferente, diferenca) = qtdDoReferente + diferenca
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
-qtdBolasDeJose = calcularReferido(qtdBolasDePaulo, diferencaDeJoseAMais)
+qtdBolasDeJose = soma(qtdBolasDePaulo, diferencaDeJoseAMais)
 
 # ╔═╡ Cell order:
 # ╠═0000038b-0000-4000-8000-000000000000

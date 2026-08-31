@@ -120,7 +120,9 @@ dinheiroDeLigianne = 27
 diferencaDeIngridAMais = 12
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-dinheiroDeIngrid = dinheiroDeLigianne + diferencaDeIngridAMais
+soma(a, b) = a + b   # função que soma dois valores
+
+dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)
 
 # ╔═╡ Cell order:
 # ╠═0000038d-0000-4000-8000-000000000000

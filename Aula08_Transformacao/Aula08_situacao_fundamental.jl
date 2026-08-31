@@ -108,10 +108,10 @@ qtdCarrinhosDeJardel = 11   # estado 2
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # a transformação entre dois estados quaisquer
-calcularTransformacaoEntreEstados(estado1, estado2) = estado1 - estado2
+subtracao(estado1, estado2) = estado1 - estado2
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
-diferencaAMenosDeJardel = calcularTransformacaoEntreEstados(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)
+diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)
 
 # ╔═╡ Cell order:
 # ╠═0000038c-0000-4000-8000-000000000000

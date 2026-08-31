@@ -121,10 +121,10 @@ diferencaDeClaudiaAMais = 7
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # abstração: regra geral, válida para qualquer comparação "a mais que"
-calcularReferente(qtdDoReferido, diferenca) = qtdDoReferido - diferenca
+subtracao(qtdDoReferido, diferenca) = qtdDoReferido - diferenca
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
-dinheiroDeJoana = calcularReferente(dinheiroDeClaudia, diferencaDeClaudiaAMais)
+dinheiroDeJoana = subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais)
 
 # ╔═╡ Cell order:
 # ╠═0000038e-0000-4000-8000-000000000000

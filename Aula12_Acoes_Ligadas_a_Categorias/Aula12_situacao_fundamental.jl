@@ -107,7 +107,9 @@ ganhoPorPartida = Dict(:segundaPartida => 12)   # ação ligada à categoria "pa
 qtdGanhoTotalNasDuasPartidas = 22
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-qtdGanhoNaPrimeiraPartida = qtdGanhoTotalNasDuasPartidas - ganhoPorPartida[:segundaPartida]
+subtracao(a, b) = a - b   # função que subtrai dois valores
+
+qtdGanhoNaPrimeiraPartida = subtracao(qtdGanhoTotalNasDuasPartidas, ganhoPorPartida[:segundaPartida])
 
 # ╔═╡ Cell order:
 # ╠═00000390-0000-4000-8000-000000000000

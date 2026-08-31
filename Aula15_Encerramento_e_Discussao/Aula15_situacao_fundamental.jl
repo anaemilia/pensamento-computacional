@@ -148,7 +148,9 @@ diferencaDeCarlosSobreJoao = 7   # Carlos tem 7 reais a mais que João
 diferencaDeJoaoSobrePedro = -2   # João tem 2 reais a menos que Pedro
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-diferencaDeCarlosSobrePedro = diferencaDeCarlosSobreJoao + diferencaDeJoaoSobrePedro   # composição das duas relações
+soma(a, b) = a + b   # função que soma dois valores
+
+diferencaDeCarlosSobrePedro = soma(diferencaDeCarlosSobreJoao, diferencaDeJoaoSobrePedro)   # composição das duas relações
 
 # ╔═╡ Cell order:
 # ╠═00000393-0000-4000-8000-000000000000

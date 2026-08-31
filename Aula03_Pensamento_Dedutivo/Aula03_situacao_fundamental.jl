@@ -122,10 +122,10 @@ qtdBalasDeLeandroDepois = 6
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # regra geral já conhecida, aplicada dedutivamente a este caso
-calcularTransformacao(estadoInicial, estadoFinal) = estadoInicial - estadoFinal
+subtracao(estadoInicial, estadoFinal) = estadoInicial - estadoFinal
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
-qtdBalasComidasPorLucas = calcularTransformacao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)
+qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)
 
 # ╔═╡ Cell order:
 # ╠═00000387-0000-4000-8000-000000000000
