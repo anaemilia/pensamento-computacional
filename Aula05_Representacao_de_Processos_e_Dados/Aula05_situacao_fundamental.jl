@@ -25,12 +25,15 @@ HTML("""
     <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
     <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -16 -17 Q -16 -30 0 -30 Q 16 -30 16 -17 Q 16 -21 0 -22 Q -16 -21 -16 -17 Z" fill="#2a2018"/>
+    <path d="M -16 -16 Q -16 -29 0 -29 Q 16 -29 16 -16 Q 16 -20 0 -21 Q -16 -20 -16 -16 Z" fill="#3a2418"/>
+       <path d="M -16 -16 L -16 -12" stroke="#3a2418" stroke-width="2"/>
+       <path d="M 16 -16 L 16 -12" stroke="#3a2418" stroke-width="2"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">394?</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Pedro tinha selos antes</text>
@@ -41,12 +44,15 @@ HTML("""
     <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
     <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -16 -17 Q -16 -30 0 -30 Q 16 -30 16 -17 Q 16 -21 0 -22 Q -16 -21 -16 -17 Z" fill="#2a2018"/>
+    <path d="M -16 -16 Q -16 -29 0 -29 Q 16 -29 16 -16 Q 16 -20 0 -21 Q -16 -20 -16 -16 Z" fill="#3a2418"/>
+       <path d="M -16 -16 L -16 -12" stroke="#3a2418" stroke-width="2"/>
+       <path d="M 16 -16 L 16 -12" stroke="#3a2418" stroke-width="2"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">+23</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Ganhou 23 selos hoje</text>
@@ -57,12 +63,15 @@ HTML("""
     <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
     <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -16 -17 Q -16 -30 0 -30 Q 16 -30 16 -17 Q 16 -21 0 -22 Q -16 -21 -16 -17 Z" fill="#2a2018"/>
+    <path d="M -16 -16 Q -16 -29 0 -29 Q 16 -29 16 -16 Q 16 -20 0 -21 Q -16 -20 -16 -16 Z" fill="#3a2418"/>
+       <path d="M -16 -16 L -16 -12" stroke="#3a2418" stroke-width="2"/>
+       <path d="M 16 -16 L 16 -12" stroke="#3a2418" stroke-width="2"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">417</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Coleção atual: 417 selos</text>

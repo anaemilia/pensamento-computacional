@@ -23,16 +23,17 @@ HTML("""
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Antes</text>
     <g transform="translate(115,80) scale(1.1)">
     <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
-    <path d="M -18 38 Q -22 4 0 2 Q 22 4 18 38 Z" fill="#c65b4e"/>
+    <path d="M -19 38 Q -23 4 0 2 Q 23 4 19 38 Z" fill="#c65b4e"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -17 -16 Q -20 6 -14 20 L -8 20 Q -12 0 -10 -18 Z" fill="#3a2418"/>
-       <path d="M 17 -16 Q 20 6 14 20 L 8 20 Q 12 0 10 -18 Z" fill="#3a2418"/>
-       <path d="M -17 -16 Q -17 -30 0 -31 Q 17 -30 17 -16 Q 17 -22 0 -23 Q -17 -22 -17 -16 Z" fill="#3a2418"/>
+    <path d="M -19 -10 Q -22 20 -13 26 Q -16 4 -14 -10 Z" fill="#3a2418"/>
+       <path d="M 19 -10 Q 22 20 13 26 Q 16 4 14 -10 Z" fill="#3a2418"/>
+       <path d="M -18 -14 Q -18 -32 0 -32 Q 18 -32 18 -14 Q 18 -22 0 -24 Q -18 -22 -18 -14 Z" fill="#3a2418"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    <circle cx="-19" cy="-4" r="2.5" fill="#d94f8c"/><circle cx="19" cy="-4" r="2.5" fill="#d94f8c"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R\$25</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Maria vai à feira com R\$25</text>
@@ -41,16 +42,17 @@ HTML("""
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Ação</text>
     <g transform="translate(115,80) scale(1.1)">
     <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
-    <path d="M -18 38 Q -22 4 0 2 Q 22 4 18 38 Z" fill="#c65b4e"/>
+    <path d="M -19 38 Q -23 4 0 2 Q 23 4 19 38 Z" fill="#c65b4e"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -17 -16 Q -20 6 -14 20 L -8 20 Q -12 0 -10 -18 Z" fill="#3a2418"/>
-       <path d="M 17 -16 Q 20 6 14 20 L 8 20 Q 12 0 10 -18 Z" fill="#3a2418"/>
-       <path d="M -17 -16 Q -17 -30 0 -31 Q 17 -30 17 -16 Q 17 -22 0 -23 Q -17 -22 -17 -16 Z" fill="#3a2418"/>
+    <path d="M -19 -10 Q -22 20 -13 26 Q -16 4 -14 -10 Z" fill="#3a2418"/>
+       <path d="M 19 -10 Q 22 20 13 26 Q 16 4 14 -10 Z" fill="#3a2418"/>
+       <path d="M -18 -14 Q -18 -32 0 -32 Q 18 -32 18 -14 Q 18 -22 0 -24 Q -18 -22 -18 -14 Z" fill="#3a2418"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    <circle cx="-19" cy="-4" r="2.5" fill="#d94f8c"/><circle cx="19" cy="-4" r="2.5" fill="#d94f8c"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">-R\$18</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Compra frutas e verduras</text>
@@ -59,16 +61,17 @@ HTML("""
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Resultado</text>
     <g transform="translate(115,80) scale(1.15)">
     <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
-    <path d="M -18 38 Q -22 4 0 2 Q 22 4 18 38 Z" fill="#c65b4e"/>
+    <path d="M -19 38 Q -23 4 0 2 Q 23 4 19 38 Z" fill="#c65b4e"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -17 -16 Q -20 6 -14 20 L -8 20 Q -12 0 -10 -18 Z" fill="#3a2418"/>
-       <path d="M 17 -16 Q 20 6 14 20 L 8 20 Q 12 0 10 -18 Z" fill="#3a2418"/>
-       <path d="M -17 -16 Q -17 -30 0 -31 Q 17 -30 17 -16 Q 17 -22 0 -23 Q -17 -22 -17 -16 Z" fill="#3a2418"/>
+    <path d="M -19 -10 Q -22 20 -13 26 Q -16 4 -14 -10 Z" fill="#3a2418"/>
+       <path d="M 19 -10 Q 22 20 13 26 Q 16 4 14 -10 Z" fill="#3a2418"/>
+       <path d="M -18 -14 Q -18 -32 0 -32 Q 18 -32 18 -14 Q 18 -22 0 -24 Q -18 -22 -18 -14 Z" fill="#3a2418"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
     <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    <circle cx="-19" cy="-4" r="2.5" fill="#d94f8c"/><circle cx="19" cy="-4" r="2.5" fill="#d94f8c"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R\$7</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Fica com R\$7</text>
