@@ -121,7 +121,7 @@ diferencaDeClaudiaAMais = 7
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # abstração: regra geral, válida para qualquer comparação "a mais que"
-subtracao(qtdDoReferido, diferenca) = qtdDoReferido - diferenca
+subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais) = dinheiroDeClaudia - diferencaDeClaudiaAMais
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 dinheiroDeJoana = subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais)

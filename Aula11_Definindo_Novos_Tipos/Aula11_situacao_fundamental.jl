@@ -111,7 +111,7 @@ end
 caixaDaGeisa = CaixaDeChocolates(35, 2, 5)
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-subtracao(a, b, c) = a - b - c   # função que subtrai duas quantidades de uma quantidade inicial
+subtracao(qtdEstoque, qtdConsumidaOntem, qtdConsumidaHoje) = qtdEstoque - qtdConsumidaOntem - qtdConsumidaHoje   # função que subtrai duas quantidades de uma quantidade inicial
 
 qtdChocolatesRestantes = subtracao(caixaDaGeisa.qtdEstoque, caixaDaGeisa.qtdConsumidaOntem, caixaDaGeisa.qtdConsumidaHoje)
 

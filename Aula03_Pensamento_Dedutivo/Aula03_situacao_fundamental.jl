@@ -122,7 +122,7 @@ qtdBalasDeLeandroDepois = 6
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # regra geral já conhecida, aplicada dedutivamente a este caso
-subtracao(estadoInicial, estadoFinal) = estadoInicial - estadoFinal
+subtracao(qtdBalasAntes, qtdBalasDepois) = qtdBalasAntes - qtdBalasDepois
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)

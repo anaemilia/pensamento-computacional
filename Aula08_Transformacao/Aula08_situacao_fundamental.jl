@@ -108,7 +108,7 @@ qtdCarrinhosDeJardel = 11   # estado 2
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # a transformação entre dois estados quaisquer
-subtracao(estado1, estado2) = estado1 - estado2
+subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel) = qtdCarrinhosDeMarcus - qtdCarrinhosDeJardel
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)

@@ -108,7 +108,7 @@ dinheiroInicialNaFeira = 25
 gastoComFrutasEVerduras = 18
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-subtracao(a, b) = a - b   # função que subtrai dois valores
+subtracao(dinheiroInicial, valorGasto) = dinheiroInicial - valorGasto   # função que subtrai dois valores
 
 dinheiroFinalDeMaria = subtracao(dinheiroInicialNaFeira, gastoComFrutasEVerduras)
 

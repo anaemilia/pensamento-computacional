@@ -107,7 +107,7 @@ qtdBolasTotal = 17   # o todo
 qtdBolasAzuis = 11   # parte 1, conhecida
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-subtracao(a, b) = a - b   # função que subtrai dois valores
+subtracao(qtdBolasTotal, qtdBolasAzuis) = qtdBolasTotal - qtdBolasAzuis   # função que subtrai dois valores
 
 qtdBolasVermelhas = subtracao(qtdBolasTotal, qtdBolasAzuis)   # parte 2, decomposta do todo
 

@@ -121,7 +121,7 @@ qtdFiguIniciais = 32   # entrada 1
 qtdFiguRecebidas = 22   # entrada 2
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
-soma(a, b) = a + b   # função que soma dois valores
+soma(qtdFiguIniciais, qtdFiguRecebidas) = qtdFiguIniciais + qtdFiguRecebidas   # função que soma dois valores
 
 qtdFiguTotal = soma(qtdFiguIniciais, qtdFiguRecebidas)   # processo + saída
 
