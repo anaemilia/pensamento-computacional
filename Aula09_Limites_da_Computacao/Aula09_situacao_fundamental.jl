@@ -22,15 +22,17 @@ HTML("""
     <rect x="4" y="4" width="222" height="182" rx="10" fill="#fbfcfd" stroke="#4a5a6a" stroke-width="2"/>
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Ligianne</text>
     <g transform="translate(115,80) scale(1.1)">
-    <ellipse cx="0" cy="40" rx="20" ry="10" fill="#000" opacity="0.08"/>
-    <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a9d6e"/>
+    <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
+    <path d="M -18 38 Q -22 4 0 2 Q 22 4 18 38 Z" fill="#a15fb0"/>
     <circle cx="0" cy="-14" r="16" fill="#c98a5e"/>
-    <path d="M -16 -18 Q -16 -30 0 -30 Q 16 -30 16 -18 Q 16 -24 0 -25 Q -16 -24 -16 -18 Z" fill="#3a2a1a"/>
+    <path d="M -17 -16 Q -20 6 -14 20 L -8 20 Q -12 0 -10 -18 Z" fill="#3a2418"/>
+       <path d="M 17 -16 Q 20 6 14 20 L 8 20 Q 12 0 10 -18 Z" fill="#3a2418"/>
+       <path d="M -17 -16 Q -17 -30 0 -31 Q 17 -30 17 -16 Q 17 -22 0 -23 Q -17 -22 -17 -16 Z" fill="#3a2418"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-    <circle cx="-11" cy="-8" r="2.6" fill="#c98a5e" opacity="0.55"/>
-    <circle cx="11" cy="-8" r="2.6" fill="#c98a5e" opacity="0.55"/>
+    <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R\$27</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Ligianne tem R\$27</text>
@@ -38,25 +40,29 @@ HTML("""
     <rect x="4" y="4" width="222" height="182" rx="10" fill="#fbfcfd" stroke="#4a5a6a" stroke-width="2"/>
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Comparação</text>
     <g transform="translate(75,80) scale(0.95)">
-    <ellipse cx="0" cy="40" rx="20" ry="10" fill="#000" opacity="0.08"/>
-    <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a9d6e"/>
+    <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
+    <path d="M -18 38 Q -22 4 0 2 Q 22 4 18 38 Z" fill="#a15fb0"/>
     <circle cx="0" cy="-14" r="16" fill="#c98a5e"/>
-    <path d="M -16 -18 Q -16 -30 0 -30 Q 16 -30 16 -18 Q 16 -24 0 -25 Q -16 -24 -16 -18 Z" fill="#3a2a1a"/>
+    <path d="M -17 -16 Q -20 6 -14 20 L -8 20 Q -12 0 -10 -18 Z" fill="#3a2418"/>
+       <path d="M 17 -16 Q 20 6 14 20 L 8 20 Q 12 0 10 -18 Z" fill="#3a2418"/>
+       <path d="M -17 -16 Q -17 -30 0 -31 Q 17 -30 17 -16 Q 17 -22 0 -23 Q -17 -22 -17 -16 Z" fill="#3a2418"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-    <circle cx="-11" cy="-8" r="2.6" fill="#c98a5e" opacity="0.55"/>
-    <circle cx="11" cy="-8" r="2.6" fill="#c98a5e" opacity="0.55"/>
+    <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
   </g><g transform="translate(155,78) scale(0.95)">
-    <ellipse cx="0" cy="40" rx="20" ry="10" fill="#000" opacity="0.08"/>
-    <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
+    <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
+    <path d="M -18 38 Q -22 4 0 2 Q 22 4 18 38 Z" fill="#c65b4e"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -16 -18 Q -16 -30 0 -30 Q 16 -30 16 -18 Q 16 -24 0 -25 Q -16 -24 -16 -18 Z" fill="#3a2a1a"/>
+    <path d="M -17 -16 Q -20 6 -14 20 L -8 20 Q -12 0 -10 -18 Z" fill="#3a2418"/>
+       <path d="M 17 -16 Q 20 6 14 20 L 8 20 Q 12 0 10 -18 Z" fill="#3a2418"/>
+       <path d="M -17 -16 Q -17 -30 0 -31 Q 17 -30 17 -16 Q 17 -22 0 -23 Q -17 -22 -17 -16 Z" fill="#3a2418"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-    <circle cx="-11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
-    <circle cx="11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
+    <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
   </g><g><rect x="113" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="155" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">+12</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Ingrid tem 12 a mais</text>
@@ -64,15 +70,17 @@ HTML("""
     <rect x="4" y="4" width="222" height="182" rx="10" fill="#fbfcfd" stroke="#4a5a6a" stroke-width="2"/>
     <text x="115" y="24" text-anchor="middle" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">Resultado</text>
     <g transform="translate(115,80) scale(1.15)">
-    <ellipse cx="0" cy="40" rx="20" ry="10" fill="#000" opacity="0.08"/>
-    <path d="M -16 38 Q -18 4 0 2 Q 18 4 16 38 Z" fill="#4a7ba6"/>
+    <ellipse cx="0" cy="40" rx="20" ry="9" fill="#000" opacity="0.08"/>
+    <path d="M -18 38 Q -22 4 0 2 Q 22 4 18 38 Z" fill="#c65b4e"/>
     <circle cx="0" cy="-14" r="16" fill="#e8b894"/>
-    <path d="M -16 -18 Q -16 -30 0 -30 Q 16 -30 16 -18 Q 16 -24 0 -25 Q -16 -24 -16 -18 Z" fill="#3a2a1a"/>
+    <path d="M -17 -16 Q -20 6 -14 20 L -8 20 Q -12 0 -10 -18 Z" fill="#3a2418"/>
+       <path d="M 17 -16 Q 20 6 14 20 L 8 20 Q 12 0 10 -18 Z" fill="#3a2418"/>
+       <path d="M -17 -16 Q -17 -30 0 -31 Q 17 -30 17 -16 Q 17 -22 0 -23 Q -17 -22 -17 -16 Z" fill="#3a2418"/>
     <circle cx="-6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <circle cx="6" cy="-14" r="1.8" fill="#2a2a2a"/>
     <path d="M -5 -6 Q 0 -3 5 -6" stroke="#8a4a3a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-    <circle cx="-11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
-    <circle cx="11" cy="-8" r="2.6" fill="#e8b894" opacity="0.55"/>
+    <circle cx="-11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
+    <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
   <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">R\$39</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Ingrid tem R\$39</text>
