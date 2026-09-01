@@ -93,7 +93,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e008-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde o primeiro estado, por exemplo `qtdCarrinhosDeMarcus = 23`.
+2. Guarde o segundo estado, por exemplo `qtdCarrinhosDeJardel = 11`.
+3. Defina a função que calcula a transformação entre dois estados quaisquer, por exemplo `subtracao(a, b) = a - b`.
+4. Aplique a função e guarde o resultado, por exemplo `diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e008-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═0000038c-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

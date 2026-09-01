@@ -107,7 +107,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e003-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde a quantidade de balas antes, por exemplo `qtdBalasDeLeandroAntes = 10`.
+2. Guarde a quantidade de balas depois, por exemplo `qtdBalasDeLeandroDepois = 6`.
+3. Reaproveite a regra geral já conhecida (transformação = estado inicial − estado final) como uma função, por exemplo `subtracao(antes, depois) = antes - depois`.
+4. Aplique a função aos valores de Leandro e guarde o resultado, por exemplo `qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e003-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000387-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

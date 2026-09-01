@@ -94,7 +94,19 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e002-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde o dinheiro inicial na feira, por exemplo `dinheiroInicialNaFeira = 25`.
+2. Guarde o valor gasto, por exemplo `gastoComFrutasEVerduras = 18`.
+3. Defina uma função que subtrai dois valores, por exemplo `subtracao(a, b) = a - b`, e use-a para calcular `dinheiroFinalDeMaria` neste caso.
+4. Escreva a regra geral que esse caso revela, com um novo nome, por exemplo `sobraDoDinheiro(valorInicial, valorGasto) = valorInicial - valorGasto`.
+5. Aplique a regra geral aos mesmos valores de Maria para confirmar que dá a mesma resposta.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e002-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000386-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

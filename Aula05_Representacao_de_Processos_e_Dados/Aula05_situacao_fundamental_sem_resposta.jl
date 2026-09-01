@@ -94,7 +94,17 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e005-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde os selos ganhos hoje, por exemplo `qtdSelosGanhosHoje = 23`.
+2. Guarde o total atual da coleção, por exemplo `qtdSelosNaColecaoAtual = 417`.
+3. Defina a função `subtracao(a, b) = a - b` e use-a para calcular quantos selos havia antes de hoje, por exemplo `qtdSelosAntesDeHoje = subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e005-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000389-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

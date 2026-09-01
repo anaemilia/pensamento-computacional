@@ -119,7 +119,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e013-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde as figurinhas ganhas de Antônio, por exemplo `qtdFiguGanhasDeAntonio = 12`.
+2. Guarde as figurinhas ganhas de Aninha, por exemplo `qtdFiguGanhasDeAninha = 5`.
+3. Guarde as duas transformações juntas num array, por exemplo `transformacoesDeFigurinhas = [qtdFiguGanhasDeAntonio, qtdFiguGanhasDeAninha]`.
+4. Use a função `sum` para somar todos os valores do array de uma vez, por exemplo `qtdFiguTotalGanhas = sum(transformacoesDeFigurinhas)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e013-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000391-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

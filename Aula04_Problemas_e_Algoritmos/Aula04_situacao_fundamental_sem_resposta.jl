@@ -94,7 +94,17 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e004-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Passo 1: guarde o estado inicial, por exemplo `qtdFofoletesMesPassado = 25`.
+2. Passo 2: guarde o estado final, por exemplo `qtdFofoletesHoje = 34`.
+3. Passo 3: defina a função `subtracao(a, b) = a - b` e use-a para calcular `qtdFofoletesGanhas = subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e004-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

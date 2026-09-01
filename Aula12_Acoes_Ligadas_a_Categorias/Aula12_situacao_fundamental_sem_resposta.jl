@@ -93,7 +93,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e012-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Crie um dicionário ligando a categoria ao valor ganho nela, por exemplo `ganhoPorPartida = Dict(:segundaPartida => 12)`.
+2. Guarde o ganho total das duas partidas, por exemplo `qtdGanhoTotalNasDuasPartidas = 22`.
+3. Defina a função `subtracao(total, parte) = total - parte`.
+4. Calcule o resultado buscando o valor no dicionário com `[:segundaPartida]`, por exemplo `qtdGanhoNaPrimeiraPartida = subtracao(qtdGanhoTotalNasDuasPartidas, ganhoPorPartida[:segundaPartida])`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e012-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000390-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

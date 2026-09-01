@@ -93,7 +93,17 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e006-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde o todo, por exemplo `qtdBolasTotal = 17`.
+2. Guarde a parte já conhecida, por exemplo `qtdBolasAzuis = 11`.
+3. Defina a função `subtracao(total, parte) = total - parte` e use-a para decompor o todo na parte que falta, por exemplo `qtdBolasVermelhas = subtracao(qtdBolasTotal, qtdBolasAzuis)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e006-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═0000038a-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

@@ -93,7 +93,25 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e011-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Defina um novo tipo que agrupe as três quantidades, por exemplo:
+```
+struct CaixaDeChocolates
+    qtdEstoque::Int
+    qtdConsumidaOntem::Int
+    qtdConsumidaHoje::Int
+end
+```
+2. Crie uma caixa concreta com os valores do problema, por exemplo `caixaDaGeisa = CaixaDeChocolates(35, 2, 5)`.
+3. Defina a função `subtracao(estoque, c1, c2) = estoque - c1 - c2`.
+4. Calcule o resultado acessando os campos da caixa com `.`, por exemplo `qtdChocolatesRestantes = subtracao(caixaDaGeisa.qtdEstoque, caixaDaGeisa.qtdConsumidaOntem, caixaDaGeisa.qtdConsumidaHoje)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e011-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═0000038f-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

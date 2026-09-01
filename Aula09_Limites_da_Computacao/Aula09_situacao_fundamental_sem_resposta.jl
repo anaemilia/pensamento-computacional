@@ -106,7 +106,17 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e009-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde o dinheiro de Ligianne, por exemplo `dinheiroDeLigianne = 27`.
+2. Guarde a diferença, por exemplo `diferencaDeIngridAMais = 12`.
+3. Defina a função `soma(a, b) = a + b` e use-a para calcular o dinheiro de Ingrid, por exemplo `dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e009-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═0000038d-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

@@ -134,7 +134,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e015-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde a diferença entre Carlos e João, por exemplo `diferencaDeCarlosSobreJoao = 7`.
+2. Guarde a diferença entre João e Pedro (use valor negativo se for "a menos"), por exemplo `diferencaDeJoaoSobrePedro = -2`.
+3. Defina a função `soma(a, b) = a + b`.
+4. Componha as duas relações conhecidas numa relação final, por exemplo `diferencaDeCarlosSobrePedro = soma(diferencaDeCarlosSobreJoao, diferencaDeJoaoSobrePedro)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e015-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000393-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

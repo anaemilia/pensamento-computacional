@@ -106,7 +106,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e010-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde o dinheiro de Claudia, por exemplo `dinheiroDeClaudia = 15`.
+2. Guarde a diferença entre as duas, por exemplo `diferencaDeClaudiaAMais = 7`.
+3. Escreva a abstração: uma regra geral válida para qualquer comparação "a mais que", por exemplo `subtracao(a, b) = a - b`.
+4. Especialize a regra aplicando-a aos valores de Claudia e Joana, por exemplo `dinheiroDeJoana = subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e010-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═0000038e-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

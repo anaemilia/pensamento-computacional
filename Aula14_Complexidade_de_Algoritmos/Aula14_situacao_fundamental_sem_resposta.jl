@@ -97,7 +97,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e014-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde cada quantidade de borrachas por cor, por exemplo `qtdBorrachasAzuis = 4`, `qtdBorrachasAmarelas = 3`, `qtdBorrachasVerdes = 2`, `qtdBorrachasVermelhas = 5`.
+2. Defina uma função que soma diretamente os quatro valores, por exemplo `soma(a, b, c, d) = a + b + c + d`, e calcule `qtdTotalPorSomaDireta`.
+3. Guarde as mesmas quantidades num array, por exemplo `qtdBorrachasPorCor = [qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas]`.
+4. Use `sum` sobre o array para chegar ao mesmo total, por exemplo `qtdTotalComArray = sum(qtdBorrachasPorCor)`, e confirme que dá a mesma resposta.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e014-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000392-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

@@ -106,7 +106,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e007-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde a quantidade de bolas de Paulo, por exemplo `qtdBolasDePaulo = 6`.
+2. Guarde a diferença, por exemplo `diferencaDeJoseAMais = 8`.
+3. Defina uma função generalizada para qualquer comparação "a mais que", por exemplo `soma(a, b) = a + b`.
+4. Aplique a função e guarde o resultado, por exemplo `qtdBolasDeJose = soma(qtdBolasDePaulo, diferencaDeJoseAMais)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e007-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═0000038b-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000

@@ -107,7 +107,18 @@ HTML("""
   </svg>
 """)
 
+# ╔═╡ 0000e001-0000-4000-8000-000000000000
+md"""
+### Passo a passo sugerido
+
+1. Guarde a quantidade inicial de figurinhas numa variável, por exemplo `qtdFiguIniciais = 32`.
+2. Guarde a quantidade recebida numa variável, por exemplo `qtdFiguRecebidas = 22`.
+3. Defina uma função que soma dois valores, por exemplo `soma(a, b) = a + b`.
+4. Calcule o total chamando a função com as duas variáveis e guarde o resultado, por exemplo `qtdFiguTotal = soma(qtdFiguIniciais, qtdFiguRecebidas)`.
+"""
+
 # ╔═╡ Cell order:
+# ╠═0000e001-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000385-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
