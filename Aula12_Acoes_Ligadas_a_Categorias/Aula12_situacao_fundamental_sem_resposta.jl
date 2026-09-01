@@ -97,6 +97,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Crie um dicionário ligando a categoria ao valor ganho nela, por exemplo `ganhoPorPartida = Dict(:segundaPartida => 12)`.
 2. Guarde o ganho total das duas partidas, por exemplo `qtdGanhoTotalNasDuasPartidas = 22`.
 3. Defina a função `subtracao(total, parte) = total - parte`.

@@ -110,6 +110,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde o dinheiro de Ligianne, por exemplo `dinheiroDeLigianne = 27`.
 2. Guarde a diferença, por exemplo `diferencaDeIngridAMais = 12`.
 3. Defina a função `soma(a, b) = a + b` e use-a para calcular o dinheiro de Ingrid, por exemplo `dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)`.

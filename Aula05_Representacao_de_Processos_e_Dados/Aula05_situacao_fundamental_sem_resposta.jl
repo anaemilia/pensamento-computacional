@@ -98,6 +98,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde os selos ganhos hoje, por exemplo `qtdSelosGanhosHoje = 23`.
 2. Guarde o total atual da coleção, por exemplo `qtdSelosNaColecaoAtual = 417`.
 3. Defina a função `subtracao(a, b) = a - b` e use-a para calcular quantos selos havia antes de hoje, por exemplo `qtdSelosAntesDeHoje = subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje)`.

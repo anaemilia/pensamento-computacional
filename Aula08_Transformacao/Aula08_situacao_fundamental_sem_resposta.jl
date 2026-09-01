@@ -97,6 +97,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde o primeiro estado, por exemplo `qtdCarrinhosDeMarcus = 23`.
 2. Guarde o segundo estado, por exemplo `qtdCarrinhosDeJardel = 11`.
 3. Defina a função que calcula a transformação entre dois estados quaisquer, por exemplo `subtracao(a, b) = a - b`.

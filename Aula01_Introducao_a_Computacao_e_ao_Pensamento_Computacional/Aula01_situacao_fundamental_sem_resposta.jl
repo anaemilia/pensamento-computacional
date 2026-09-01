@@ -111,6 +111,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde a quantidade inicial de figurinhas numa variável, por exemplo `qtdFiguIniciais = 32`.
 2. Guarde a quantidade recebida numa variável, por exemplo `qtdFiguRecebidas = 22`.
 3. Defina uma função que soma dois valores, por exemplo `soma(a, b) = a + b`.

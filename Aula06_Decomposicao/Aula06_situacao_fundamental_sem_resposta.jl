@@ -97,6 +97,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde o todo, por exemplo `qtdBolasTotal = 17`.
 2. Guarde a parte já conhecida, por exemplo `qtdBolasAzuis = 11`.
 3. Defina a função `subtracao(total, parte) = total - parte` e use-a para decompor o todo na parte que falta, por exemplo `qtdBolasVermelhas = subtracao(qtdBolasTotal, qtdBolasAzuis)`.

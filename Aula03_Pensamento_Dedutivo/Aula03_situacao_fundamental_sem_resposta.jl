@@ -111,6 +111,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde a quantidade de balas antes, por exemplo `qtdBalasDeLeandroAntes = 10`.
 2. Guarde a quantidade de balas depois, por exemplo `qtdBalasDeLeandroDepois = 6`.
 3. Reaproveite a regra geral já conhecida (transformação = estado inicial − estado final) como uma função, por exemplo `subtracao(antes, depois) = antes - depois`.

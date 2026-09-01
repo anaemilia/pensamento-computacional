@@ -123,6 +123,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde as figurinhas ganhas de Antônio, por exemplo `qtdFiguGanhasDeAntonio = 12`.
 2. Guarde as figurinhas ganhas de Aninha, por exemplo `qtdFiguGanhasDeAninha = 5`.
 3. Guarde as duas transformações juntas num array, por exemplo `transformacoesDeFigurinhas = [qtdFiguGanhasDeAntonio, qtdFiguGanhasDeAninha]`.

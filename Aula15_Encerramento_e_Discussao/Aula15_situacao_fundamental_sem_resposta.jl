@@ -138,6 +138,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde a diferença entre Carlos e João, por exemplo `diferencaDeCarlosSobreJoao = 7`.
 2. Guarde a diferença entre João e Pedro (use valor negativo se for "a menos"), por exemplo `diferencaDeJoaoSobrePedro = -2`.
 3. Defina a função `soma(a, b) = a + b`.

@@ -101,6 +101,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde cada quantidade de borrachas por cor, por exemplo `qtdBorrachasAzuis = 4`, `qtdBorrachasAmarelas = 3`, `qtdBorrachasVerdes = 2`, `qtdBorrachasVermelhas = 5`.
 2. Defina uma função que soma diretamente os quatro valores, por exemplo `soma(a, b, c, d) = a + b + c + d`, e calcule `qtdTotalPorSomaDireta`.
 3. Guarde as mesmas quantidades num array, por exemplo `qtdBorrachasPorCor = [qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas]`.

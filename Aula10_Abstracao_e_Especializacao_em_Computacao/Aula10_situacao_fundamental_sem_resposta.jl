@@ -110,6 +110,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde o dinheiro de Claudia, por exemplo `dinheiroDeClaudia = 15`.
 2. Guarde a diferença entre as duas, por exemplo `diferencaDeClaudiaAMais = 7`.
 3. Escreva a abstração: uma regra geral válida para qualquer comparação "a mais que", por exemplo `subtracao(a, b) = a - b`.

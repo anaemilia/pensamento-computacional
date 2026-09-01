@@ -98,6 +98,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Passo 1: guarde o estado inicial, por exemplo `qtdFofoletesMesPassado = 25`.
 2. Passo 2: guarde o estado final, por exemplo `qtdFofoletesHoje = 34`.
 3. Passo 3: defina a função `subtracao(a, b) = a - b` e use-a para calcular `qtdFofoletesGanhas = subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado)`.

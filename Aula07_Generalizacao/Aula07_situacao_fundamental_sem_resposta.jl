@@ -110,6 +110,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde a quantidade de bolas de Paulo, por exemplo `qtdBolasDePaulo = 6`.
 2. Guarde a diferença, por exemplo `diferencaDeJoseAMais = 8`.
 3. Defina uma função generalizada para qualquer comparação "a mais que", por exemplo `soma(a, b) = a + b`.

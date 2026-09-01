@@ -98,6 +98,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Guarde o dinheiro inicial na feira, por exemplo `dinheiroInicialNaFeira = 25`.
 2. Guarde o valor gasto, por exemplo `gastoComFrutasEVerduras = 18`.
 3. Defina uma função que subtrai dois valores, por exemplo `subtracao(a, b) = a - b`, e use-a para calcular `dinheiroFinalDeMaria` neste caso.

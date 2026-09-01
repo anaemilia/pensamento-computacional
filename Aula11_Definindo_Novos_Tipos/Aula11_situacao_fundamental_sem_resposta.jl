@@ -97,6 +97,8 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
+Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+
 1. Defina um novo tipo que agrupe as três quantidades, por exemplo:
 ```
 struct CaixaDeChocolates
