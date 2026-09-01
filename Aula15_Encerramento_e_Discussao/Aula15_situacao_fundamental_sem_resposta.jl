@@ -80,7 +80,7 @@ HTML("""
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
-  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">+7</text></g>
+  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">?</text></g>
     <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Carlos tem 7 reais a mais que João</text>
   </g><g transform="translate(476,0)">
     <rect x="4" y="4" width="222" height="182" rx="10" fill="#fbfcfd" stroke="#4a5a6a" stroke-width="2"/>
@@ -112,8 +112,8 @@ HTML("""
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
-  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">+5</text></g>
-    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Carlos tem 5 reais a mais que Pedro</text>
+  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">?</text></g>
+    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">Carlos tem ? reais a mais que Pedro</text>
   </g></svg>
 """)
 
@@ -129,7 +129,7 @@ HTML("""
     <line x1="300" y1="45" x2="314" y2="45" stroke="#8a97a3" stroke-width="1.5" marker-end="url(#arrow2)"/>
     <text x="310" y="37" text-anchor="middle" font-size="11" fill="#5a3a1a" font-family="sans-serif" font-weight="700">+7</text>
     <path d="M 100 80 L 100 100 L 380 100 L 380 80" fill="none" stroke="#1f5c85" stroke-width="1.5"/>
-    <text x="240" y="118" text-anchor="middle" font-size="12" fill="#0e3550" font-family="sans-serif" font-weight="700">Carlos em relação a Pedro: +5</text>
+    <text x="240" y="118" text-anchor="middle" font-size="12" fill="#0e3550" font-family="sans-serif" font-weight="700">Carlos em relação a Pedro: ?</text>
     <defs><marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8a97a3"/></marker></defs>
   </svg>
 """)

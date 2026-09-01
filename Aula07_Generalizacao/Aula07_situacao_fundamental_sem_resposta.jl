@@ -86,8 +86,8 @@ HTML("""
     <circle cx="11" cy="-8" r="2.4" fill="#e0836a" opacity="0.45"/>
     
   </g><g><rect x="73" y="134" width="84" height="26" rx="6" fill="#fff" stroke="#8a97a3" stroke-width="1.5"/>
-  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">14 bolas</text></g>
-    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">José tem 14 bolas</text>
+  <text x="115" y="152" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif" font-weight="700">? bolas</text></g>
+    <text x="115" y="176" text-anchor="middle" font-size="11" fill="#1a2733" font-family="sans-serif">José tem ? bolas</text>
   </g></svg>
 """)
 
@@ -99,7 +99,7 @@ HTML("""
     <text x="97.8" y="41" text-anchor="middle" font-size="12" fill="#1a2733" font-family="sans-serif" font-weight="600">6</text>
     <text x="10" y="97" font-size="11" fill="#0e3550" font-family="sans-serif">Bolas de José (?)</text>
     <rect x="90" y="76" width="36.4" height="34" rx="6" fill="#dce8f0" stroke="#1f5c85" stroke-width="1.5"/>
-    <text x="108.2" y="97" text-anchor="middle" font-size="12" fill="#0e3550" font-family="sans-serif" font-weight="700">14</text>
+    <text x="108.2" y="97" text-anchor="middle" font-size="12" fill="#0e3550" font-family="sans-serif" font-weight="700">?</text>
     <path d="M 105.6 54 L 136.4 54 L 136.4 76 L 126.4 76" fill="none" stroke="#8a97a3" stroke-width="1.5"/>
     <text x="152.4" y="69" font-size="12" fill="#5a3a1a" font-family="sans-serif" font-weight="700">8</text>
     <text x="152.4" y="85" font-size="11" fill="#5a3a1a" font-family="sans-serif">a mais</text>
