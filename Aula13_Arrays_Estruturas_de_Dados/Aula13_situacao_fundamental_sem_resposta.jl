@@ -119,55 +119,7 @@ HTML("""
   </svg>
 """)
 
-# ╔═╡ 00000003-0000-4000-8000-000000000000
-md"""
-**Pensamento Computacional em jogo — guardar dados repetidos numa estrutura só.** Cada transformação (ganho) é um elemento de um **array**, somado de uma vez com `sum`.
-
-Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
-"""
-
-# ╔═╡ 0000f1301-0000-4000-8000-000000000000
-md"""
-Variável com as figurinhas ganhas de Antônio.
-"""
-
-# ╔═╡ 00000004-0000-4000-8000-000000000000
-qtdFiguGanhasDeAntonio = 12
-
-# ╔═╡ 0000f1302-0000-4000-8000-000000000000
-md"""
-Variável com as figurinhas ganhas de Aninha.
-"""
-
-# ╔═╡ 00000005-0000-4000-8000-000000000000
-qtdFiguGanhasDeAninha = 5
-
-# ╔═╡ 0000f1303-0000-4000-8000-000000000000
-md"""
-Em vez de duas variáveis soltas, guardamos as duas transformações juntas num **array** — uma lista ordenada de valores.
-"""
-
-# ╔═╡ 00000006-0000-4000-8000-000000000000
-transformacoesDeFigurinhas = [qtdFiguGanhasDeAntonio, qtdFiguGanhasDeAninha]
-
-# ╔═╡ 0000f1304-0000-4000-8000-000000000000
-md"""
-Usamos a função `sum`, pronta na linguagem, para somar todos os valores do array de uma vez, sem precisar somar um a um.
-"""
-
-# ╔═╡ 00000007-0000-4000-8000-000000000000
-# escreva aqui o código para calcular qtdFiguTotalGanhas, usando a função sum
-
 # ╔═╡ Cell order:
-# ╠═00000391-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═00000391-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
-# ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f1301-0000-4000-8000-000000000000
-# ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f1302-0000-4000-8000-000000000000
-# ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f1303-0000-4000-8000-000000000000
-# ╠═00000006-0000-4000-8000-000000000000
-# ╠═0000f1304-0000-4000-8000-000000000000
-# ╠═00000007-0000-4000-8000-000000000000

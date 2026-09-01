@@ -94,47 +94,7 @@ HTML("""
   </svg>
 """)
 
-# ╔═╡ 00000003-0000-4000-8000-000000000000
-md"""
-**Pensamento Computacional em jogo — escolher como representar dados e o processo que os liga.** Cada quantidade vira uma variável com nome que representa seu papel no problema.
-
-Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
-"""
-
-# ╔═╡ 0000f0501-0000-4000-8000-000000000000
-md"""
-Variável `qtdSelosGanhosHoje` representa os selos recebidos hoje.
-"""
-
-# ╔═╡ 00000004-0000-4000-8000-000000000000
-qtdSelosGanhosHoje = 23
-
-# ╔═╡ 0000f0502-0000-4000-8000-000000000000
-md"""
-Variável `qtdSelosNaColecaoAtual` representa o total que a coleção tem agora, depois do ganho de hoje.
-"""
-
-# ╔═╡ 00000005-0000-4000-8000-000000000000
-qtdSelosNaColecaoAtual = 417
-
-# ╔═╡ 0000f0503-0000-4000-8000-000000000000
-md"""
-Definimos a função `subtracao` e a usamos para descobrir quantos selos havia *antes* de hoje — o nome de cada variável já diz que papel ela representa no problema, sem precisar reler o código.
-"""
-
-# ╔═╡ 00000006-0000-4000-8000-000000000000
-subtracao(qtdSelosAtual, qtdSelosGanhosHoje) = qtdSelosAtual - qtdSelosGanhosHoje   # função que subtrai dois valores
-
-# escreva aqui o código para calcular qtdSelosAntesDeHoje, usando a função subtracao
-
 # ╔═╡ Cell order:
-# ╠═00000389-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═00000389-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
-# ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0501-0000-4000-8000-000000000000
-# ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0502-0000-4000-8000-000000000000
-# ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0503-0000-4000-8000-000000000000
-# ╠═00000006-0000-4000-8000-000000000000

@@ -134,47 +134,7 @@ HTML("""
   </svg>
 """)
 
-# ╔═╡ 00000003-0000-4000-8000-000000000000
-md"""
-**Pensamento Computacional em jogo — decompor, abstrair e compor a solução final.** Duas relações conhecidas (Carlos-João e João-Pedro) são compostas numa relação final (Carlos-Pedro), encadeando os conceitos vistos ao longo do semestre.
-
-Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
-"""
-
-# ╔═╡ 0000f1501-0000-4000-8000-000000000000
-md"""
-Variável com a diferença entre Carlos e João (Carlos tem 7 reais a mais).
-"""
-
-# ╔═╡ 00000004-0000-4000-8000-000000000000
-diferencaDeCarlosSobreJoao = 7   # Carlos tem 7 reais a mais que João
-
-# ╔═╡ 0000f1502-0000-4000-8000-000000000000
-md"""
-Variável com a diferença entre João e Pedro (João tem 2 reais a menos, por isso o valor negativo).
-"""
-
-# ╔═╡ 00000005-0000-4000-8000-000000000000
-diferencaDeJoaoSobrePedro = -2   # João tem 2 reais a menos que Pedro
-
-# ╔═╡ 0000f1503-0000-4000-8000-000000000000
-md"""
-Definimos a função `soma` e a usamos para **compor** as duas relações conhecidas numa relação final entre Carlos e Pedro, encadeando os conceitos vistos no semestre.
-"""
-
-# ╔═╡ 00000006-0000-4000-8000-000000000000
-soma(diferencaCarlosJoao, diferencaJoaoPedro) = diferencaCarlosJoao + diferencaJoaoPedro   # função que soma dois valores
-
-# escreva aqui o código da composição: calcule diferencaDeCarlosSobrePedro usando a função soma
-
 # ╔═╡ Cell order:
-# ╠═00000393-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═00000393-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
-# ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f1501-0000-4000-8000-000000000000
-# ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f1502-0000-4000-8000-000000000000
-# ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f1503-0000-4000-8000-000000000000
-# ╠═00000006-0000-4000-8000-000000000000

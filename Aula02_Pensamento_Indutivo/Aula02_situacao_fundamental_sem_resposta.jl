@@ -94,68 +94,7 @@ HTML("""
   </svg>
 """)
 
-# ╔═╡ 00000003-0000-4000-8000-000000000000
-md"""
-**Pensamento Computacional em jogo — induzir a regra geral a partir de um caso.** Resolvemos o caso concreto e depois escrevemos a regra geral que ele revela.
-
-Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
-"""
-
-# ╔═╡ 0000f0201-0000-4000-8000-000000000000
-md"""
-Variável `dinheiroInicialNaFeira` guarda quanto dinheiro Maria tinha ao chegar na feira.
-"""
-
-# ╔═╡ 00000004-0000-4000-8000-000000000000
-dinheiroInicialNaFeira = 25
-
-# ╔═╡ 0000f0202-0000-4000-8000-000000000000
-md"""
-Variável `gastoComFrutasEVerduras` guarda quanto ela gastou.
-"""
-
-# ╔═╡ 00000005-0000-4000-8000-000000000000
-gastoComFrutasEVerduras = 18
-
-# ╔═╡ 0000f0203-0000-4000-8000-000000000000
-md"""
-Definimos a função `subtracao`, que recebe dois valores e devolve a diferença entre eles, e a usamos neste caso concreto para calcular `dinheiroFinalDeMaria`.
-"""
-
-# ╔═╡ 00000006-0000-4000-8000-000000000000
-subtracao(dinheiroInicial, valorGasto) = dinheiroInicial - valorGasto   # função que subtrai dois valores
-
-dinheiroFinalDeMaria = subtracao(dinheiroInicialNaFeira, gastoComFrutasEVerduras)
-
-# ╔═╡ 0000f0204-0000-4000-8000-000000000000
-md"""
-Agora escrevemos a **regra geral** que esse caso revela: uma função `sobraDoDinheiro` que funciona para qualquer valor inicial e qualquer gasto, não só para os números de Maria — isso é *induzir* uma regra a partir de um exemplo.
-"""
-
-# ╔═╡ 00000007-0000-4000-8000-000000000000
-# regra geral induzida a partir do caso acima
-sobraDoDinheiro(valorInicial, valorGasto) = valorInicial - valorGasto
-
-# ╔═╡ 0000f0205-0000-4000-8000-000000000000
-md"""
-Aplicamos a regra geral aos mesmos números do caso de Maria, para confirmar que ela dá a mesma resposta.
-"""
-
-# ╔═╡ 00000008-0000-4000-8000-000000000000
-# escreva aqui o código para aplicar sobraDoDinheiro aos valores de Maria
-
 # ╔═╡ Cell order:
-# ╠═00000386-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═00000386-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
-# ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0201-0000-4000-8000-000000000000
-# ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0202-0000-4000-8000-000000000000
-# ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0203-0000-4000-8000-000000000000
-# ╠═00000006-0000-4000-8000-000000000000
-# ╠═0000f0204-0000-4000-8000-000000000000
-# ╠═00000007-0000-4000-8000-000000000000
-# ╠═0000f0205-0000-4000-8000-000000000000
-# ╠═00000008-0000-4000-8000-000000000000

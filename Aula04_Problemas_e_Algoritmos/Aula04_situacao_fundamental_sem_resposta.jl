@@ -94,47 +94,7 @@ HTML("""
   </svg>
 """)
 
-# ╔═╡ 00000003-0000-4000-8000-000000000000
-md"""
-**Pensamento Computacional em jogo — transformar um problema em algoritmo.** Cada célula do Pluto é um passo do algoritmo, executado na ordem certa, com resultado parcial visível.
-
-Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
-"""
-
-# ╔═╡ 0000f0401-0000-4000-8000-000000000000
-md"""
-Passo 1 do algoritmo: guardamos o estado inicial, a quantidade de fofoletes do mês passado.
-"""
-
-# ╔═╡ 00000004-0000-4000-8000-000000000000
-qtdFofoletesMesPassado = 25   # passo 1: ler o estado inicial
-
-# ╔═╡ 0000f0402-0000-4000-8000-000000000000
-md"""
-Passo 2: guardamos o estado final, a quantidade de hoje.
-"""
-
-# ╔═╡ 00000005-0000-4000-8000-000000000000
-qtdFofoletesHoje = 34   # passo 2: ler o estado final
-
-# ╔═╡ 0000f0403-0000-4000-8000-000000000000
-md"""
-Passo 3: definimos a função `subtracao` e a usamos para calcular quantas fofoletes foram ganhas — cada célula do notebook corresponde a um passo do algoritmo, executado em ordem.
-"""
-
-# ╔═╡ 00000006-0000-4000-8000-000000000000
-subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado) = qtdFofoletesHoje - qtdFofoletesMesPassado   # função que subtrai dois valores
-
-# escreva aqui o código do passo 3: calcule qtdFofoletesGanhas usando a função subtracao
-
 # ╔═╡ Cell order:
-# ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
-# ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0401-0000-4000-8000-000000000000
-# ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0402-0000-4000-8000-000000000000
-# ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0403-0000-4000-8000-000000000000
-# ╠═00000006-0000-4000-8000-000000000000

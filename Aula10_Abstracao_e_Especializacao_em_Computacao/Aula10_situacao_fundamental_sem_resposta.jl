@@ -106,56 +106,7 @@ HTML("""
   </svg>
 """)
 
-# ╔═╡ 00000003-0000-4000-8000-000000000000
-md"""
-**Pensamento Computacional em jogo — abstrair uma regra e depois especializá-la.** Escrevemos a regra geral (abstração) e a aplicamos a Claudia e Joana (especialização).
-
-Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
-"""
-
-# ╔═╡ 0000f1001-0000-4000-8000-000000000000
-md"""
-Variável com o dinheiro de Claudia.
-"""
-
-# ╔═╡ 00000004-0000-4000-8000-000000000000
-dinheiroDeClaudia = 15
-
-# ╔═╡ 0000f1002-0000-4000-8000-000000000000
-md"""
-Variável com a diferença entre o dinheiro das duas.
-"""
-
-# ╔═╡ 00000005-0000-4000-8000-000000000000
-diferencaDeClaudiaAMais = 7
-
-# ╔═╡ 0000f1003-0000-4000-8000-000000000000
-md"""
-Escrevemos a **abstração**: uma regra geral, válida para qualquer comparação "a mais que", sem depender dos nomes de Claudia e Joana.
-"""
-
-# ╔═╡ 00000006-0000-4000-8000-000000000000
-# abstração: regra geral, válida para qualquer comparação "a mais que"
-subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais) = dinheiroDeClaudia - diferencaDeClaudiaAMais
-
-# ╔═╡ 0000f1004-0000-4000-8000-000000000000
-md"""
-**Especializamos** a regra geral, aplicando-a aos valores de Claudia e Joana para calcular o dinheiro de Joana.
-"""
-
-# ╔═╡ 00000007-0000-4000-8000-000000000000
-# escreva aqui o código para calcular dinheiroDeJoana, usando a função subtracao
-
 # ╔═╡ Cell order:
-# ╠═0000038e-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000038e-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
-# ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f1001-0000-4000-8000-000000000000
-# ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f1002-0000-4000-8000-000000000000
-# ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f1003-0000-4000-8000-000000000000
-# ╠═00000006-0000-4000-8000-000000000000
-# ╠═0000f1004-0000-4000-8000-000000000000
-# ╠═00000007-0000-4000-8000-000000000000
