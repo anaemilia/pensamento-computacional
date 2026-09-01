@@ -16,6 +16,15 @@ Manuel ganhou de Antônio 12 figurinhas do Pokémon. Mais tarde ganhou mais 5 fi
 *Categoria 4 — Composição de transformações (Vergnaud)*
 """
 
+# ╔═╡ 0000p13s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 4 — Composição de transformações*: duas transformações (ganhos) acontecem em sequência e se somam ao final.
+
+Antes de calcular: o total ganho por Manuel vai ser maior que 12? Por quê?
+"""
+
 # ╔═╡ 00000391-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -123,16 +132,30 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
-Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+Esta atividade usa um **array** (uma lista de valores) em vez de somar uma variável por vez. Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
 
-1. Guarde as figurinhas ganhas de Antônio, por exemplo `qtdFiguGanhasDeAntonio = 12`.
-2. Guarde as figurinhas ganhas de Aninha, por exemplo `qtdFiguGanhasDeAninha = 5`.
-3. Guarde as duas transformações juntas num array, por exemplo `transformacoesDeFigurinhas = [qtdFiguGanhasDeAntonio, qtdFiguGanhasDeAninha]`.
-4. Use a função `sum` para somar todos os valores do array de uma vez, por exemplo `qtdFiguTotalGanhas = sum(transformacoesDeFigurinhas)`.
+1. Guarde as figurinhas ganhas de Antônio numa variável, por exemplo `qtdFiguGanhasDeAntonio = 12`.
+2. Guarde as figurinhas ganhas de Aninha numa outra variável, por exemplo `qtdFiguGanhasDeAninha = 5`.
+3. Em vez de duas variáveis soltas, guarde as duas transformações juntas num array (uma lista entre colchetes), por exemplo `transformacoesDeFigurinhas = [qtdFiguGanhasDeAntonio, qtdFiguGanhasDeAninha]`.
+4. Use a função `sum`, já pronta na linguagem, para somar todos os valores do array de uma vez, por exemplo `qtdFiguTotalGanhas = sum(transformacoesDeFigurinhas)`.
+
+**Desafio extra:** adicionar uma terceira transformação ao array e recalcular o total com `sum`.
+"""
+
+# ╔═╡ 0000r013-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `qtdFiguGanhasDeAntonio` e `qtdFiguGanhasDeAninha` definidas com os valores corretos (12 e 5)
+- [ ] Array `transformacoesDeFigurinhas` criado com as duas variáveis
+- [ ] Função `sum` usada sobre o array
+- [ ] Resultado final igual a 17
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p13s-0000-4000-8000-000000000000
 # ╠═00000391-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e013-0000-4000-8000-000000000000
+# ╠═0000r013-0000-4000-8000-000000000000

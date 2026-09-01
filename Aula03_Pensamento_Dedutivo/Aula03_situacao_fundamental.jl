@@ -16,6 +16,15 @@ Leandro tinha 10 balas. Lucas, seu irmão, pegou algumas balas escondidas de Lea
 *Categoria 2 — Transformação de medidas (transformação desconhecida) (Vergnaud)*
 """
 
+# ╔═╡ 0000p03c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: você conhece o antes e o depois, e precisa descobrir a transformação escondida no meio.
+
+Antes de calcular: quantas balas você imagina que Lucas comeu, só olhando os números 10 e 6?
+"""
+
 # ╔═╡ 00000387-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -147,9 +156,15 @@ Aplicamos essa função aos valores de Leandro para calcular quantas balas Lucas
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)
 
+# ╔═╡ 0000d003-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** escrever a função de forma que funcione também se Lucas tivesse ganhado balas, em vez de comido.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000387-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p03c-0000-4000-8000-000000000000
+# ╠═00000387-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0301-0000-4000-8000-000000000000
@@ -160,3 +175,4 @@ qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDep
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000f0304-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
+# ╠═0000d003-0000-4000-8000-000000000000

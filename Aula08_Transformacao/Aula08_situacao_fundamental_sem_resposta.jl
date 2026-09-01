@@ -16,6 +16,15 @@ Marcus e Jardel colecionam carrinhos em miniatura. Marcus tem 23 carrinhos e Jar
 *Categoria 3 — Comparação de medidas (diferença desconhecida) (Vergnaud)*
 """
 
+# ╔═╡ 0000p08s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: duas quantidades são comparadas por uma diferença ("a menos que").
+
+Antes de calcular: quem tem mais carrinhos, Marcus ou Jardel?
+"""
+
 # ╔═╡ 0000038c-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -101,12 +110,26 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde o primeiro estado, por exemplo `qtdCarrinhosDeMarcus = 23`.
 2. Guarde o segundo estado, por exemplo `qtdCarrinhosDeJardel = 11`.
-3. Defina a função que calcula a transformação entre dois estados quaisquer, por exemplo `subtracao(a, b) = a - b`.
+3. Defina a função que calcula a transformação entre dois estados quaisquer, por exemplo `subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel) = qtdCarrinhosDeMarcus - qtdCarrinhosDeJardel`.
 4. Aplique a função e guarde o resultado, por exemplo `diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)`.
+
+**Desafio extra:** escrever uma função que diga também *quem* tem mais, além do valor da diferença.
+"""
+
+# ╔═╡ 0000r008-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `qtdCarrinhosDeMarcus` e `qtdCarrinhosDeJardel` definidas com os valores corretos (23 e 11)
+- [ ] Função `subtracao` definida como transformação entre estados
+- [ ] `diferencaAMenosDeJardel` calculado corretamente
+- [ ] Resultado final igual a 12
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p08s-0000-4000-8000-000000000000
 # ╠═0000038c-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e008-0000-4000-8000-000000000000
+# ╠═0000r008-0000-4000-8000-000000000000

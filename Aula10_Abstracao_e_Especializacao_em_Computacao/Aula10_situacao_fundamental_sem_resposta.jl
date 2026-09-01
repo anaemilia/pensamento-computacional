@@ -16,6 +16,15 @@ Claudia tem 15 reais. Ela tem 7 reais a mais que Joana. Quantos reais Joana tem?
 *Categoria 3 — Comparação de medidas (referente desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p10s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: o mesmo tipo de comparação, agora pensada de forma abstrata (regra geral) antes de aplicada ao caso específico.
+
+Antes de calcular: Joana tem mais ou menos dinheiro que Claudia?
+"""
+
 # ╔═╡ 0000038e-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -114,12 +123,26 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde o dinheiro de Claudia, por exemplo `dinheiroDeClaudia = 15`.
 2. Guarde a diferença entre as duas, por exemplo `diferencaDeClaudiaAMais = 7`.
-3. Escreva a abstração: uma regra geral válida para qualquer comparação "a mais que", por exemplo `subtracao(a, b) = a - b`.
+3. Escreva a abstração: uma regra geral válida para qualquer comparação "a mais que", por exemplo `subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais) = dinheiroDeClaudia - diferencaDeClaudiaAMais`.
 4. Especialize a regra aplicando-a aos valores de Claudia e Joana, por exemplo `dinheiroDeJoana = subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais)`.
+
+**Desafio extra:** aplicar a mesma função abstrata a um terceiro par de pessoas.
+"""
+
+# ╔═╡ 0000r010-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `dinheiroDeClaudia` e `diferencaDeClaudiaAMais` definidas com os valores corretos (15 e 7)
+- [ ] Abstração (regra geral) escrita com parâmetros genéricos
+- [ ] Regra especializada aos valores de Claudia e Joana
+- [ ] Resultado final igual a 8
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p10s-0000-4000-8000-000000000000
 # ╠═0000038e-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e010-0000-4000-8000-000000000000
+# ╠═0000r010-0000-4000-8000-000000000000

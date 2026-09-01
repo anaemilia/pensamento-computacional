@@ -16,6 +16,15 @@ Marcus e Jardel colecionam carrinhos em miniatura. Marcus tem 23 carrinhos e Jar
 *Categoria 3 — Comparação de medidas (diferença desconhecida) (Vergnaud)*
 """
 
+# ╔═╡ 0000p08c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: duas quantidades são comparadas por uma diferença ("a menos que").
+
+Antes de calcular: quem tem mais carrinhos, Marcus ou Jardel?
+"""
+
 # ╔═╡ 0000038c-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -133,9 +142,15 @@ Aplicamos a função aos dois estados para calcular a diferença entre eles.
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)
 
+# ╔═╡ 0000d008-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** escrever uma função que diga também *quem* tem mais, além do valor da diferença.
+"""
+
 # ╔═╡ Cell order:
-# ╠═0000038c-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p08c-0000-4000-8000-000000000000
+# ╠═0000038c-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0801-0000-4000-8000-000000000000
@@ -146,3 +161,4 @@ diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000f0804-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
+# ╠═0000d008-0000-4000-8000-000000000000

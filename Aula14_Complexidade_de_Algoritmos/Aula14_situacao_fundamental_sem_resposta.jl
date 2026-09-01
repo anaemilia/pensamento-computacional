@@ -16,6 +16,15 @@ Marina tem quatro borrachas azuis, três amarelas, duas verdes e cinco vermelhas
 *Categoria 1 — Composição de medidas (4 partes) (Vergnaud)*
 """
 
+# ╔═╡ 0000p14s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 1 — Composição de medidas (4 partes)*: o todo é formado por quatro partes conhecidas — aqui o interessante é comparar dois jeitos de somar essas partes.
+
+Antes de calcular: dá para saber o total sem somar tudo, só de olhar os números 4, 3, 2 e 5?
+"""
+
 # ╔═╡ 00000392-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -101,16 +110,35 @@ HTML("""
 md"""
 ### Passo a passo sugerido
 
-Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
+Esta atividade pede para resolver o problema de **duas formas diferentes** e comparar os resultados. Para escrever o código, clique no botão **+** abaixo desta célula para criar uma nova célula e siga o passo a passo:
 
-1. Guarde cada quantidade de borrachas por cor, por exemplo `qtdBorrachasAzuis = 4`, `qtdBorrachasAmarelas = 3`, `qtdBorrachasVerdes = 2`, `qtdBorrachasVermelhas = 5`.
-2. Defina uma função que soma diretamente os quatro valores, por exemplo `soma(a, b, c, d) = a + b + c + d`, e calcule `qtdTotalPorSomaDireta`.
-3. Guarde as mesmas quantidades num array, por exemplo `qtdBorrachasPorCor = [qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas]`.
-4. Use `sum` sobre o array para chegar ao mesmo total, por exemplo `qtdTotalComArray = sum(qtdBorrachasPorCor)`, e confirme que dá a mesma resposta.
+**Primeira forma — soma direta (funciona só para 4 cores):**
+1. Guarde cada quantidade de borrachas por cor numa variável, por exemplo `qtdBorrachasAzuis = 4`, `qtdBorrachasAmarelas = 3`, `qtdBorrachasVerdes = 2`, `qtdBorrachasVermelhas = 5`.
+2. Defina uma função que soma diretamente os quatro valores, por exemplo `soma(qtdAzuis, qtdAmarelas, qtdVerdes, qtdVermelhas) = qtdAzuis + qtdAmarelas + qtdVerdes + qtdVermelhas`.
+3. Aplique a função às quatro variáveis e guarde o resultado, por exemplo `qtdTotalPorSomaDireta = soma(qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas)`.
+
+**Segunda forma — array (funciona para qualquer quantidade de cores):**
+4. Guarde as mesmas quantidades num array, por exemplo `qtdBorrachasPorCor = [qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas]`.
+5. Use a função `sum` sobre o array para chegar ao total, por exemplo `qtdTotalComArray = sum(qtdBorrachasPorCor)`.
+6. Confirme que `qtdTotalPorSomaDireta` e `qtdTotalComArray` dão o mesmo resultado.
+
+**Desafio extra:** testar as duas funções com uma quinta cor de borracha e comparar o esforço de mudar cada uma.
+"""
+
+# ╔═╡ 0000r014-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] Quatro variáveis de cor definidas com os valores corretos (4, 3, 2, 5)
+- [ ] Função `soma` de custo fixo definida e usada
+- [ ] Array `qtdBorrachasPorCor` criado com as quatro variáveis
+- [ ] `sum` usado sobre o array e resultado igual em ambas as abordagens (14)
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p14s-0000-4000-8000-000000000000
 # ╠═00000392-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e014-0000-4000-8000-000000000000
+# ╠═0000r014-0000-4000-8000-000000000000

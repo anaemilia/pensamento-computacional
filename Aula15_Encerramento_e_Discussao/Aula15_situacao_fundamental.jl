@@ -16,6 +16,15 @@ Carlos tem 7 reais a mais que João. João tem 2 reais a menos que Pedro. Qual �
 *Categoria 6 — Composição de relações (Vergnaud)*
 """
 
+# ╔═╡ 0000p15c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas (composta)*: duas comparações conhecidas se encadeiam numa comparação final — reunindo tudo o que você viu no semestre.
+
+Antes de calcular: Carlos tem mais ou menos dinheiro que Pedro?
+"""
+
 # ╔═╡ 00000393-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -167,9 +176,15 @@ soma(diferencaCarlosJoao, diferencaJoaoPedro) = diferencaCarlosJoao + diferencaJ
 
 diferencaDeCarlosSobrePedro = soma(diferencaDeCarlosSobreJoao, diferencaDeJoaoSobrePedro)   # composição das duas relações
 
+# ╔═╡ 0000d015-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** encadear uma quarta pessoa na comparação, compondo três diferenças em vez de duas.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000393-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p15c-0000-4000-8000-000000000000
+# ╠═00000393-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f1501-0000-4000-8000-000000000000
@@ -178,3 +193,4 @@ diferencaDeCarlosSobrePedro = soma(diferencaDeCarlosSobreJoao, diferencaDeJoaoSo
 # ╠═00000005-0000-4000-8000-000000000000
 # ╠═0000f1503-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000d015-0000-4000-8000-000000000000

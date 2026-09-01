@@ -16,6 +16,17 @@ Geisa tinha uma caixa com 35 chocolates. Comeu 2 ontem e 5 hoje. Quantos chocola
 *Categoria 4 — Composição de transformações (Vergnaud)*
 """
 
+# ╔═╡ 0000p11s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 1 — Composição de medidas*: um estoque perde partes em sequência, e as três quantidades ficam guardadas juntas num só "pacote" de dados.
+
+Antes de calcular: quantos chocolates você imagina que restam, considerando o estoque e os dois consumos?
+
+⚠️ cuidado para não confundir `qtdConsumidaOntem` com `qtdConsumidaHoje` ao acessar os campos da caixa.
+"""
+
 # ╔═╡ 0000038f-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -108,12 +119,26 @@ struct CaixaDeChocolates
 end
 ```
 2. Crie uma caixa concreta com os valores do problema, por exemplo `caixaDaGeisa = CaixaDeChocolates(35, 2, 5)`.
-3. Defina a função `subtracao(estoque, c1, c2) = estoque - c1 - c2`.
+3. Defina a função `subtracao(qtdEstoque, qtdConsumidaOntem, qtdConsumidaHoje) = qtdEstoque - qtdConsumidaOntem - qtdConsumidaHoje`.
 4. Calcule o resultado acessando os campos da caixa com `.`, por exemplo `qtdChocolatesRestantes = subtracao(caixaDaGeisa.qtdEstoque, caixaDaGeisa.qtdConsumidaOntem, caixaDaGeisa.qtdConsumidaHoje)`.
+
+**Desafio extra:** adicionar um novo campo ao tipo `CaixaDeChocolates`, por exemplo `qtdConsumidaAnteontem`.
+"""
+
+# ╔═╡ 0000r011-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] Novo tipo `CaixaDeChocolates` definido com os três campos
+- [ ] `caixaDaGeisa` criada preenchendo os valores do problema
+- [ ] Função `subtracao` usada acessando os campos com `.`
+- [ ] Resultado final igual a 28
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p11s-0000-4000-8000-000000000000
 # ╠═0000038f-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e011-0000-4000-8000-000000000000
+# ╠═0000r011-0000-4000-8000-000000000000

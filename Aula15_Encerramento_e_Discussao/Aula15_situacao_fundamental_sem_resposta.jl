@@ -16,6 +16,15 @@ Carlos tem 7 reais a mais que João. João tem 2 reais a menos que Pedro. Qual �
 *Categoria 6 — Composição de relações (Vergnaud)*
 """
 
+# ╔═╡ 0000p15s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas (composta)*: duas comparações conhecidas se encadeiam numa comparação final — reunindo tudo o que você viu no semestre.
+
+Antes de calcular: Carlos tem mais ou menos dinheiro que Pedro?
+"""
+
 # ╔═╡ 00000393-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -142,12 +151,26 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde a diferença entre Carlos e João, por exemplo `diferencaDeCarlosSobreJoao = 7`.
 2. Guarde a diferença entre João e Pedro (use valor negativo se for "a menos"), por exemplo `diferencaDeJoaoSobrePedro = -2`.
-3. Defina a função `soma(a, b) = a + b`.
+3. Defina a função `soma(diferencaCarlosJoao, diferencaJoaoPedro) = diferencaCarlosJoao + diferencaJoaoPedro`.
 4. Componha as duas relações conhecidas numa relação final, por exemplo `diferencaDeCarlosSobrePedro = soma(diferencaDeCarlosSobreJoao, diferencaDeJoaoSobrePedro)`.
+
+**Desafio extra:** encadear uma quarta pessoa na comparação, compondo três diferenças em vez de duas.
+"""
+
+# ╔═╡ 0000r015-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `diferencaDeCarlosSobreJoao` e `diferencaDeJoaoSobrePedro` definidas com os valores corretos (7 e -2)
+- [ ] Função `soma` definida e usada para compor as relações
+- [ ] `diferencaDeCarlosSobrePedro` calculado corretamente
+- [ ] Resultado final igual a 5
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p15s-0000-4000-8000-000000000000
 # ╠═00000393-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e015-0000-4000-8000-000000000000
+# ╠═0000r015-0000-4000-8000-000000000000

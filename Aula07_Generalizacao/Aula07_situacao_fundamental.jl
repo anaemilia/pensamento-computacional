@@ -16,6 +16,15 @@ Paulo tem 6 bolas. José tem 8 bolas a mais que Paulo. Quantas bolas tem José?
 *Categoria 3 — Comparação de medidas (referido desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p07c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: duas quantidades são comparadas por uma diferença ("a mais que").
+
+Antes de calcular: José tem mais ou menos bolas que Paulo?
+"""
+
 # ╔═╡ 0000038b-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -146,9 +155,15 @@ Usamos a função generalizada para calcular a quantidade de bolas de José nest
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 qtdBolasDeJose = soma(qtdBolasDePaulo, diferencaDeJoseAMais)
 
+# ╔═╡ 0000d007-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** testar a função `soma` com uma segunda pessoa comparada a José.
+"""
+
 # ╔═╡ Cell order:
-# ╠═0000038b-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p07c-0000-4000-8000-000000000000
+# ╠═0000038b-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0701-0000-4000-8000-000000000000
@@ -159,3 +174,4 @@ qtdBolasDeJose = soma(qtdBolasDePaulo, diferencaDeJoseAMais)
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000f0704-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
+# ╠═0000d007-0000-4000-8000-000000000000

@@ -16,6 +16,15 @@ Pedro coleciona selos. Hoje ganhou 23 selos, ficando com 417 selos na sua coleç
 *Categoria 2 — Transformação de medidas (estado inicial desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p05s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: aqui você conhece o resultado final e a transformação, e precisa descobrir o valor inicial — o caminho inverso das aulas anteriores.
+
+Antes de calcular: o valor de antes vai ser maior ou menor que 417?
+"""
+
 # ╔═╡ 00000389-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -102,11 +111,25 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde os selos ganhos hoje, por exemplo `qtdSelosGanhosHoje = 23`.
 2. Guarde o total atual da coleção, por exemplo `qtdSelosNaColecaoAtual = 417`.
-3. Defina a função `subtracao(a, b) = a - b` e use-a para calcular quantos selos havia antes de hoje, por exemplo `qtdSelosAntesDeHoje = subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje)`.
+3. Defina a função `subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje) = qtdSelosNaColecaoAtual - qtdSelosGanhosHoje` e use-a para calcular quantos selos havia antes de hoje, por exemplo `qtdSelosAntesDeHoje = subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje)`.
+
+**Desafio extra:** criar uma função `qtdAntes` que funcione para qualquer coleção, não só a de Pedro.
+"""
+
+# ╔═╡ 0000r005-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `qtdSelosGanhosHoje` e `qtdSelosNaColecaoAtual` definidas com os valores corretos (23 e 417)
+- [ ] Função `subtracao` definida e usada
+- [ ] `qtdSelosAntesDeHoje` calculado corretamente
+- [ ] Resultado final igual a 394
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p05s-0000-4000-8000-000000000000
 # ╠═00000389-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e005-0000-4000-8000-000000000000
+# ╠═0000r005-0000-4000-8000-000000000000

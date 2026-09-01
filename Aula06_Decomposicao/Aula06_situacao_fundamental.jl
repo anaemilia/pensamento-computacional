@@ -16,6 +16,15 @@ Paulo tem 17 bolas azuis e vermelhas. Se ele tem 11 bolas azuis, quantas bolas v
 *Categoria 1 — Composição de medidas (parte desconhecida) (Vergnaud)*
 """
 
+# ╔═╡ 0000p06c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 1 — Composição de medidas*: um todo é formado por partes, e você conhece o todo e uma parte — falta descobrir a outra.
+
+Antes de calcular: a parte que falta vai ser maior ou menor que a parte já conhecida (11)?
+"""
+
 # ╔═╡ 0000038a-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -126,9 +135,15 @@ subtracao(qtdBolasTotal, qtdBolasAzuis) = qtdBolasTotal - qtdBolasAzuis   # fun�
 
 qtdBolasVermelhas = subtracao(qtdBolasTotal, qtdBolasAzuis)   # parte 2, decomposta do todo
 
+# ╔═╡ 0000d006-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** criar uma função `decompor` que funcione para qualquer todo e qualquer parte conhecida.
+"""
+
 # ╔═╡ Cell order:
-# ╠═0000038a-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p06c-0000-4000-8000-000000000000
+# ╠═0000038a-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0601-0000-4000-8000-000000000000
@@ -137,3 +152,4 @@ qtdBolasVermelhas = subtracao(qtdBolasTotal, qtdBolasAzuis)   # parte 2, decompo
 # ╠═00000005-0000-4000-8000-000000000000
 # ╠═0000f0603-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000d006-0000-4000-8000-000000000000

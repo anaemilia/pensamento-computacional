@@ -16,6 +16,15 @@ Marina tem quatro borrachas azuis, três amarelas, duas verdes e cinco vermelhas
 *Categoria 1 — Composição de medidas (4 partes) (Vergnaud)*
 """
 
+# ╔═╡ 0000p14c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 1 — Composição de medidas (4 partes)*: o todo é formado por quatro partes conhecidas — aqui o interessante é comparar dois jeitos de somar essas partes.
+
+Antes de calcular: dá para saber o total sem somar tudo, só de olhar os números 4, 3, 2 e 5?
+"""
+
 # ╔═╡ 00000392-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -162,9 +171,15 @@ Usamos `sum` sobre o array para chegar ao mesmo total — essa versão generaliz
 # ╔═╡ 0000000a-0000-4000-8000-000000000000
 qtdTotalComArray = sum(qtdBorrachasPorCor)
 
+# ╔═╡ 0000d014-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** testar as duas funções com uma quinta cor de borracha e comparar o esforço de mudar cada uma.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000392-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p14c-0000-4000-8000-000000000000
+# ╠═00000392-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f1401-0000-4000-8000-000000000000
@@ -181,3 +196,4 @@ qtdTotalComArray = sum(qtdBorrachasPorCor)
 # ╠═00000009-0000-4000-8000-000000000000
 # ╠═0000f1407-0000-4000-8000-000000000000
 # ╠═0000000a-0000-4000-8000-000000000000
+# ╠═0000d014-0000-4000-8000-000000000000

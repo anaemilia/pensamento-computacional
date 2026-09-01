@@ -16,6 +16,15 @@ Manuel ganhou de Antônio 12 figurinhas do Pokémon. Mais tarde ganhou mais 5 fi
 *Categoria 4 — Composição de transformações (Vergnaud)*
 """
 
+# ╔═╡ 0000p13c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 4 — Composição de transformações*: duas transformações (ganhos) acontecem em sequência e se somam ao final.
+
+Antes de calcular: o total ganho por Manuel vai ser maior que 12? Por quê?
+"""
+
 # ╔═╡ 00000391-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -158,9 +167,15 @@ Usamos a função `sum`, pronta na linguagem, para somar todos os valores do arr
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 qtdFiguTotalGanhas = sum(transformacoesDeFigurinhas)
 
+# ╔═╡ 0000d013-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** adicionar uma terceira transformação ao array e recalcular o total com `sum`.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000391-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p13c-0000-4000-8000-000000000000
+# ╠═00000391-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f1301-0000-4000-8000-000000000000
@@ -171,3 +186,4 @@ qtdFiguTotalGanhas = sum(transformacoesDeFigurinhas)
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000f1304-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
+# ╠═0000d013-0000-4000-8000-000000000000

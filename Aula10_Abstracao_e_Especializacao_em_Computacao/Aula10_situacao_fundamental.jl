@@ -16,6 +16,15 @@ Claudia tem 15 reais. Ela tem 7 reais a mais que Joana. Quantos reais Joana tem?
 *Categoria 3 — Comparação de medidas (referente desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p10c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: o mesmo tipo de comparação, agora pensada de forma abstrata (regra geral) antes de aplicada ao caso específico.
+
+Antes de calcular: Joana tem mais ou menos dinheiro que Claudia?
+"""
+
 # ╔═╡ 0000038e-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -146,9 +155,15 @@ md"""
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 dinheiroDeJoana = subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais)
 
+# ╔═╡ 0000d010-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** aplicar a mesma função abstrata a um terceiro par de pessoas.
+"""
+
 # ╔═╡ Cell order:
-# ╠═0000038e-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p10c-0000-4000-8000-000000000000
+# ╠═0000038e-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f1001-0000-4000-8000-000000000000
@@ -159,3 +174,4 @@ dinheiroDeJoana = subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais)
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000f1004-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
+# ╠═0000d010-0000-4000-8000-000000000000

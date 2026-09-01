@@ -16,6 +16,15 @@ Pedro coleciona selos. Hoje ganhou 23 selos, ficando com 417 selos na sua coleç
 *Categoria 2 — Transformação de medidas (estado inicial desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p05c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: aqui você conhece o resultado final e a transformação, e precisa descobrir o valor inicial — o caminho inverso das aulas anteriores.
+
+Antes de calcular: o valor de antes vai ser maior ou menor que 417?
+"""
+
 # ╔═╡ 00000389-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -127,9 +136,15 @@ subtracao(qtdSelosAtual, qtdSelosGanhosHoje) = qtdSelosAtual - qtdSelosGanhosHoj
 
 qtdSelosAntesDeHoje = subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje)
 
+# ╔═╡ 0000d005-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** criar uma função `qtdAntes` que funcione para qualquer coleção, não só a de Pedro.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000389-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p05c-0000-4000-8000-000000000000
+# ╠═00000389-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0501-0000-4000-8000-000000000000
@@ -138,3 +153,4 @@ qtdSelosAntesDeHoje = subtracao(qtdSelosNaColecaoAtual, qtdSelosGanhosHoje)
 # ╠═00000005-0000-4000-8000-000000000000
 # ╠═0000f0503-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000d005-0000-4000-8000-000000000000

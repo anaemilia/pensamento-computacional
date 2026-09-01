@@ -16,6 +16,17 @@ João jogou duas partidas de bila. Na segunda ele ganhou 12 bolas. Ao final das 
 *Categoria 4 — Composição de transformações (uma incógnita) (Vergnaud)*
 """
 
+# ╔═╡ 0000p12s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 1 — Composição de medidas*: o total é dividido em duas partidas, e cada parte fica guardada ligada à sua categoria (primeira ou segunda partida).
+
+Antes de calcular: o ganho da primeira partida vai ser maior ou menor que o da segunda?
+
+⚠️ cuidado para não confundir a chave `:segundaPartida` com o valor total ao consultar o dicionário.
+"""
+
 # ╔═╡ 00000390-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -101,12 +112,26 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Crie um dicionário ligando a categoria ao valor ganho nela, por exemplo `ganhoPorPartida = Dict(:segundaPartida => 12)`.
 2. Guarde o ganho total das duas partidas, por exemplo `qtdGanhoTotalNasDuasPartidas = 22`.
-3. Defina a função `subtracao(total, parte) = total - parte`.
+3. Defina a função `subtracao(qtdGanhoTotal, qtdGanhoSegundaPartida) = qtdGanhoTotal - qtdGanhoSegundaPartida`.
 4. Calcule o resultado buscando o valor no dicionário com `[:segundaPartida]`, por exemplo `qtdGanhoNaPrimeiraPartida = subtracao(qtdGanhoTotalNasDuasPartidas, ganhoPorPartida[:segundaPartida])`.
+
+**Desafio extra:** adicionar uma `:terceiraPartida` ao dicionário e recalcular o total.
+"""
+
+# ╔═╡ 0000r012-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] Dicionário `ganhoPorPartida` criado com a categoria `:segundaPartida`
+- [ ] `qtdGanhoTotalNasDuasPartidas` definida com o valor correto
+- [ ] Função `subtracao` usada buscando o valor no dicionário
+- [ ] Resultado final igual a 10
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p12s-0000-4000-8000-000000000000
 # ╠═00000390-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e012-0000-4000-8000-000000000000
+# ╠═0000r012-0000-4000-8000-000000000000

@@ -16,6 +16,15 @@ Karla coleciona fofoletes. Mês passado, ela tinha 25 fofoletes. Hoje ela contou
 *Categoria 2 — Transformação de medidas (transformação desconhecida) (Vergnaud)*
 """
 
+# ╔═╡ 0000p04c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: o mesmo tipo de problema das aulas anteriores, agora resolvido passo a passo como um algoritmo.
+
+Antes de calcular: você acha que Karla ganhou ou perdeu fofoletes do mês passado para hoje?
+"""
+
 # ╔═╡ 00000388-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -127,9 +136,15 @@ subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado) = qtdFofoletesHoje - qtdFofo
 
 qtdFofoletesGanhas = subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado)   # passo 3: calcular e responder
 
+# ╔═╡ 0000d004-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** reescrever a solução como uma função `calcularGanho`, reutilizável para qualquer mês.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p04c-0000-4000-8000-000000000000
+# ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0401-0000-4000-8000-000000000000
@@ -138,3 +153,4 @@ qtdFofoletesGanhas = subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado)   # pas
 # ╠═00000005-0000-4000-8000-000000000000
 # ╠═0000f0403-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000d004-0000-4000-8000-000000000000

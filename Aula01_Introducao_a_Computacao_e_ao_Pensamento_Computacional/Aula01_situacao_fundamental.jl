@@ -16,6 +16,15 @@ Maria faz coleção de figurinhas. Ela tem 32 figurinhas. Sua mãe a presenteou 
 *Categoria 2 — Transformação de medidas (Vergnaud)*
 """
 
+# ╔═╡ 0000p01c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: um valor inicial recebe uma transformação (ganhar) e vira um valor final.
+
+Antes de calcular: o resultado final vai ser maior ou menor que 32? Por quê?
+"""
+
 # ╔═╡ 00000385-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -140,9 +149,15 @@ soma(qtdFiguIniciais, qtdFiguRecebidas) = qtdFiguIniciais + qtdFiguRecebidas   #
 
 qtdFiguTotal = soma(qtdFiguIniciais, qtdFiguRecebidas)   # processo + saída
 
+# ╔═╡ 0000d001-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** criar uma função `soma3` que soma três valores, e testá-la com uma terceira doação de figurinhas.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000385-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p01c-0000-4000-8000-000000000000
+# ╠═00000385-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0101-0000-4000-8000-000000000000
@@ -151,3 +166,4 @@ qtdFiguTotal = soma(qtdFiguIniciais, qtdFiguRecebidas)   # processo + saída
 # ╠═00000005-0000-4000-8000-000000000000
 # ╠═0000f0103-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000d001-0000-4000-8000-000000000000

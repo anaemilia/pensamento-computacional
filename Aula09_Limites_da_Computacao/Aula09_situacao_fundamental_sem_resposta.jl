@@ -16,6 +16,15 @@ Ingrid tem 12 reais a mais que Ligianne. Se Ligianne possui 27 reais, quantos re
 *Categoria 3 — Comparação de medidas (referendo desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p09s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: o mesmo tipo de comparação das aulas anteriores — mas aqui vale parar para pensar no que o computador realmente entende dos números.
+
+Antes de calcular: Ingrid tem mais ou menos dinheiro que Ligianne?
+"""
+
 # ╔═╡ 0000038d-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -114,11 +123,25 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde o dinheiro de Ligianne, por exemplo `dinheiroDeLigianne = 27`.
 2. Guarde a diferença, por exemplo `diferencaDeIngridAMais = 12`.
-3. Defina a função `soma(a, b) = a + b` e use-a para calcular o dinheiro de Ingrid, por exemplo `dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)`.
+3. Defina a função `soma(dinheiroDeLigianne, diferencaDeIngridAMais) = dinheiroDeLigianne + diferencaDeIngridAMais` e use-a para calcular o dinheiro de Ingrid, por exemplo `dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)`.
+
+**Desafio extra:** pensar em um problema do dia a dia que o computador NÃO conseguiria resolver só com números.
+"""
+
+# ╔═╡ 0000r009-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `dinheiroDeLigianne` e `diferencaDeIngridAMais` definidas com os valores corretos (27 e 12)
+- [ ] Função `soma` definida e usada
+- [ ] `dinheiroDeIngrid` calculado corretamente
+- [ ] Resultado final igual a 39
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p09s-0000-4000-8000-000000000000
 # ╠═0000038d-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e009-0000-4000-8000-000000000000
+# ╠═0000r009-0000-4000-8000-000000000000

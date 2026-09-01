@@ -16,6 +16,15 @@ Maria foi fazer compras na feira com R\$ 25,00. Gastou R\$ 18,00 comprando fruta
 *Categoria 2 — Transformação de medidas (Vergnaud)*
 """
 
+# ╔═╡ 0000p02s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: um valor inicial recebe uma transformação (gastar) e vira um valor final — o mesmo tipo da Aula01, mas agora diminuindo.
+
+Antes de calcular: o resultado final vai ser maior ou menor que 25? Por quê?
+"""
+
 # ╔═╡ 00000386-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -102,13 +111,27 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde o dinheiro inicial na feira, por exemplo `dinheiroInicialNaFeira = 25`.
 2. Guarde o valor gasto, por exemplo `gastoComFrutasEVerduras = 18`.
-3. Defina uma função que subtrai dois valores, por exemplo `subtracao(a, b) = a - b`, e use-a para calcular `dinheiroFinalDeMaria` neste caso.
+3. Defina uma função que subtrai dois valores, por exemplo `subtracao(dinheiroInicialNaFeira, gastoComFrutasEVerduras) = dinheiroInicialNaFeira - gastoComFrutasEVerduras`, e use-a para calcular `dinheiroFinalDeMaria` neste caso.
 4. Escreva a regra geral que esse caso revela, com um novo nome, por exemplo `sobraDoDinheiro(valorInicial, valorGasto) = valorInicial - valorGasto`.
 5. Aplique a regra geral aos mesmos valores de Maria para confirmar que dá a mesma resposta.
+
+**Desafio extra:** testar a função `sobraDoDinheiro` com outros valores, diferentes dos de Maria.
+"""
+
+# ╔═╡ 0000r002-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `dinheiroInicialNaFeira` e `gastoComFrutasEVerduras` definidas com os valores corretos (25 e 18)
+- [ ] Função `subtracao` usada no caso específico
+- [ ] Regra geral `sobraDoDinheiro` definida com parâmetros genéricos
+- [ ] Regra geral aplicada e resultado igual ao caso específico (7)
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p02s-0000-4000-8000-000000000000
 # ╠═00000386-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e002-0000-4000-8000-000000000000
+# ╠═0000r002-0000-4000-8000-000000000000

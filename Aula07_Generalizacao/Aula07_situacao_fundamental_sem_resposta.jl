@@ -16,6 +16,15 @@ Paulo tem 6 bolas. José tem 8 bolas a mais que Paulo. Quantas bolas tem José?
 *Categoria 3 — Comparação de medidas (referido desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p07s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: duas quantidades são comparadas por uma diferença ("a mais que").
+
+Antes de calcular: José tem mais ou menos bolas que Paulo?
+"""
+
 # ╔═╡ 0000038b-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -114,12 +123,26 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde a quantidade de bolas de Paulo, por exemplo `qtdBolasDePaulo = 6`.
 2. Guarde a diferença, por exemplo `diferencaDeJoseAMais = 8`.
-3. Defina uma função generalizada para qualquer comparação "a mais que", por exemplo `soma(a, b) = a + b`.
+3. Defina uma função generalizada para qualquer comparação "a mais que", por exemplo `soma(qtdBolasDePaulo, diferencaDeJoseAMais) = qtdBolasDePaulo + diferencaDeJoseAMais`.
 4. Aplique a função e guarde o resultado, por exemplo `qtdBolasDeJose = soma(qtdBolasDePaulo, diferencaDeJoseAMais)`.
+
+**Desafio extra:** testar a função `soma` com uma segunda pessoa comparada a José.
+"""
+
+# ╔═╡ 0000r007-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `qtdBolasDePaulo` e `diferencaDeJoseAMais` definidas com os valores corretos (6 e 8)
+- [ ] Função `soma` generalizada definida
+- [ ] `qtdBolasDeJose` calculado usando a função
+- [ ] Resultado final igual a 14
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p07s-0000-4000-8000-000000000000
 # ╠═0000038b-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e007-0000-4000-8000-000000000000
+# ╠═0000r007-0000-4000-8000-000000000000

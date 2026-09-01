@@ -16,6 +16,15 @@ Leandro tinha 10 balas. Lucas, seu irmão, pegou algumas balas escondidas de Lea
 *Categoria 2 — Transformação de medidas (transformação desconhecida) (Vergnaud)*
 """
 
+# ╔═╡ 0000p03s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: você conhece o antes e o depois, e precisa descobrir a transformação escondida no meio.
+
+Antes de calcular: quantas balas você imagina que Lucas comeu, só olhando os números 10 e 6?
+"""
+
 # ╔═╡ 00000387-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -115,12 +124,26 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde a quantidade de balas antes, por exemplo `qtdBalasDeLeandroAntes = 10`.
 2. Guarde a quantidade de balas depois, por exemplo `qtdBalasDeLeandroDepois = 6`.
-3. Reaproveite a regra geral já conhecida (transformação = estado inicial − estado final) como uma função, por exemplo `subtracao(antes, depois) = antes - depois`.
+3. Reaproveite a regra geral já conhecida (transformação = estado inicial − estado final) como uma função, por exemplo `subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois) = qtdBalasDeLeandroAntes - qtdBalasDeLeandroDepois`.
 4. Aplique a função aos valores de Leandro e guarde o resultado, por exemplo `qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)`.
+
+**Desafio extra:** escrever a função de forma que funcione também se Lucas tivesse ganhado balas, em vez de comido.
+"""
+
+# ╔═╡ 0000r003-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `qtdBalasDeLeandroAntes` e `qtdBalasDeLeandroDepois` definidas com os valores corretos (10 e 6)
+- [ ] Função `subtracao` definida e usada para deduzir o valor
+- [ ] `qtdBalasComidasPorLucas` calculado corretamente
+- [ ] Resultado final igual a 4
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p03s-0000-4000-8000-000000000000
 # ╠═00000387-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e003-0000-4000-8000-000000000000
+# ╠═0000r003-0000-4000-8000-000000000000

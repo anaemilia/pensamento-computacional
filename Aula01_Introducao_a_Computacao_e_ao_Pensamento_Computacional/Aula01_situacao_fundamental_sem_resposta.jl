@@ -16,6 +16,15 @@ Maria faz coleção de figurinhas. Ela tem 32 figurinhas. Sua mãe a presenteou 
 *Categoria 2 — Transformação de medidas (Vergnaud)*
 """
 
+# ╔═╡ 0000p01s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: um valor inicial recebe uma transformação (ganhar) e vira um valor final.
+
+Antes de calcular: o resultado final vai ser maior ou menor que 32? Por quê?
+"""
+
 # ╔═╡ 00000385-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -115,12 +124,26 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Guarde a quantidade inicial de figurinhas numa variável, por exemplo `qtdFiguIniciais = 32`.
 2. Guarde a quantidade recebida numa variável, por exemplo `qtdFiguRecebidas = 22`.
-3. Defina uma função que soma dois valores, por exemplo `soma(a, b) = a + b`.
+3. Defina uma função que soma dois valores, por exemplo `soma(qtdFiguIniciais, qtdFiguRecebidas) = qtdFiguIniciais + qtdFiguRecebidas`.
 4. Calcule o total chamando a função com as duas variáveis e guarde o resultado, por exemplo `qtdFiguTotal = soma(qtdFiguIniciais, qtdFiguRecebidas)`.
+
+**Desafio extra:** criar uma função `soma3` que soma três valores, e testá-la com uma terceira doação de figurinhas.
+"""
+
+# ╔═╡ 0000r001-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `qtdFiguIniciais` e `qtdFiguRecebidas` definidas com os valores corretos (32 e 22)
+- [ ] Função `soma` definida recebendo dois parâmetros
+- [ ] `qtdFiguTotal` calculado chamando a função `soma`
+- [ ] Resultado final igual a 54
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p01s-0000-4000-8000-000000000000
 # ╠═00000385-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e001-0000-4000-8000-000000000000
+# ╠═0000r001-0000-4000-8000-000000000000

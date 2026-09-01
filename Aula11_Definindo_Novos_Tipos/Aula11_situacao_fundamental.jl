@@ -16,6 +16,17 @@ Geisa tinha uma caixa com 35 chocolates. Comeu 2 ontem e 5 hoje. Quantos chocola
 *Categoria 4 — Composição de transformações (Vergnaud)*
 """
 
+# ╔═╡ 0000p11c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 1 — Composição de medidas*: um estoque perde partes em sequência, e as três quantidades ficam guardadas juntas num só "pacote" de dados.
+
+Antes de calcular: quantos chocolates você imagina que restam, considerando o estoque e os dois consumos?
+
+⚠️ cuidado para não confundir `qtdConsumidaOntem` com `qtdConsumidaHoje` ao acessar os campos da caixa.
+"""
+
 # ╔═╡ 0000038f-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -130,9 +141,15 @@ subtracao(qtdEstoque, qtdConsumidaOntem, qtdConsumidaHoje) = qtdEstoque - qtdCon
 
 qtdChocolatesRestantes = subtracao(caixaDaGeisa.qtdEstoque, caixaDaGeisa.qtdConsumidaOntem, caixaDaGeisa.qtdConsumidaHoje)
 
+# ╔═╡ 0000d011-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** adicionar um novo campo ao tipo `CaixaDeChocolates`, por exemplo `qtdConsumidaAnteontem`.
+"""
+
 # ╔═╡ Cell order:
-# ╠═0000038f-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p11c-0000-4000-8000-000000000000
+# ╠═0000038f-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f1101-0000-4000-8000-000000000000
@@ -141,3 +158,4 @@ qtdChocolatesRestantes = subtracao(caixaDaGeisa.qtdEstoque, caixaDaGeisa.qtdCons
 # ╠═00000005-0000-4000-8000-000000000000
 # ╠═0000f1103-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000d011-0000-4000-8000-000000000000

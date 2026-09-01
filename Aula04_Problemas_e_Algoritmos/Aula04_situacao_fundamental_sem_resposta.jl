@@ -16,6 +16,15 @@ Karla coleciona fofoletes. Mês passado, ela tinha 25 fofoletes. Hoje ela contou
 *Categoria 2 — Transformação de medidas (transformação desconhecida) (Vergnaud)*
 """
 
+# ╔═╡ 0000p04s-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: o mesmo tipo de problema das aulas anteriores, agora resolvido passo a passo como um algoritmo.
+
+Antes de calcular: você acha que Karla ganhou ou perdeu fofoletes do mês passado para hoje?
+"""
+
 # ╔═╡ 00000388-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -102,11 +111,25 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 
 1. Passo 1: guarde o estado inicial, por exemplo `qtdFofoletesMesPassado = 25`.
 2. Passo 2: guarde o estado final, por exemplo `qtdFofoletesHoje = 34`.
-3. Passo 3: defina a função `subtracao(a, b) = a - b` e use-a para calcular `qtdFofoletesGanhas = subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado)`.
+3. Passo 3: defina a função `subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado) = qtdFofoletesHoje - qtdFofoletesMesPassado` e use-a para calcular `qtdFofoletesGanhas = subtracao(qtdFofoletesHoje, qtdFofoletesMesPassado)`.
+
+**Desafio extra:** reescrever a solução como uma função `calcularGanho`, reutilizável para qualquer mês.
+"""
+
+# ╔═╡ 0000r004-0000-4000-8000-000000000000
+md"""
+### Rubrica de avaliação (professor)
+
+- [ ] `qtdFofoletesMesPassado` e `qtdFofoletesHoje` definidas com os valores corretos (25 e 34)
+- [ ] Passos executados em ordem (algoritmo)
+- [ ] Função `subtracao` definida e usada
+- [ ] Resultado final igual a 9
 """
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p04s-0000-4000-8000-000000000000
 # ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e004-0000-4000-8000-000000000000
+# ╠═0000r004-0000-4000-8000-000000000000

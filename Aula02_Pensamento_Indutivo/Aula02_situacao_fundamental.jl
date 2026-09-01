@@ -16,6 +16,15 @@ Maria foi fazer compras na feira com R\$ 25,00. Gastou R\$ 18,00 comprando fruta
 *Categoria 2 — Transformação de medidas (Vergnaud)*
 """
 
+# ╔═╡ 0000p02c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 2 — Transformação de medidas*: um valor inicial recebe uma transformação (gastar) e vira um valor final — o mesmo tipo da Aula01, mas agora diminuindo.
+
+Antes de calcular: o resultado final vai ser maior ou menor que 25? Por quê?
+"""
+
 # ╔═╡ 00000386-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -144,9 +153,15 @@ Aplicamos a regra geral aos mesmos números do caso de Maria, para confirmar que
 # ╔═╡ 00000008-0000-4000-8000-000000000000
 sobraDoDinheiro(dinheiroInicialNaFeira, gastoComFrutasEVerduras)
 
+# ╔═╡ 0000d002-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** testar a função `sobraDoDinheiro` com outros valores, diferentes dos de Maria.
+"""
+
 # ╔═╡ Cell order:
-# ╠═00000386-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p02c-0000-4000-8000-000000000000
+# ╠═00000386-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0201-0000-4000-8000-000000000000
@@ -159,3 +174,4 @@ sobraDoDinheiro(dinheiroInicialNaFeira, gastoComFrutasEVerduras)
 # ╠═00000007-0000-4000-8000-000000000000
 # ╠═0000f0205-0000-4000-8000-000000000000
 # ╠═00000008-0000-4000-8000-000000000000
+# ╠═0000d002-0000-4000-8000-000000000000

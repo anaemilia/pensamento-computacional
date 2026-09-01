@@ -16,6 +16,15 @@ Ingrid tem 12 reais a mais que Ligianne. Se Ligianne possui 27 reais, quantos re
 *Categoria 3 — Comparação de medidas (referendo desconhecido) (Vergnaud)*
 """
 
+# ╔═╡ 0000p09c-0000-4000-8000-000000000000
+md"""
+💭 **Para pensar antes de calcular**
+
+Este problema é do tipo *Categoria 3 — Comparação de medidas*: o mesmo tipo de comparação das aulas anteriores — mas aqui vale parar para pensar no que o computador realmente entende dos números.
+
+Antes de calcular: Ingrid tem mais ou menos dinheiro que Ligianne?
+"""
+
 # ╔═╡ 0000038d-0000-4000-8000-000000000000
 HTML("""
 <svg viewBox="0 0 706 190" width="100%" style="max-width:706px" xmlns="http://www.w3.org/2000/svg"><g transform="translate(0,0)">
@@ -139,9 +148,15 @@ soma(dinheiroDeLigianne, diferencaDeIngridAMais) = dinheiroDeLigianne + diferenc
 
 dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)
 
+# ╔═╡ 0000d009-0000-4000-8000-000000000000
+md"""
+**Desafio extra:** pensar em um problema do dia a dia que o computador NÃO conseguiria resolver só com números.
+"""
+
 # ╔═╡ Cell order:
-# ╠═0000038d-0000-4000-8000-000000000000
 # ╠═00000001-0000-4000-8000-000000000000
+# ╠═0000p09c-0000-4000-8000-000000000000
+# ╠═0000038d-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
 # ╠═0000f0901-0000-4000-8000-000000000000
@@ -150,3 +165,4 @@ dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)
 # ╠═00000005-0000-4000-8000-000000000000
 # ╠═0000f0903-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000d009-0000-4000-8000-000000000000
