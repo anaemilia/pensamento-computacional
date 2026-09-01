@@ -16,7 +16,7 @@ Ingrid tem 12 reais a mais que Ligianne. Se Ligianne possui 27 reais, quantos re
 *Categoria 3 — Comparação de medidas (referendo desconhecido) (Vergnaud)*
 """
 
-# ╔═╡ 0000p09s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -128,7 +128,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** pensar em um problema do dia a dia que o computador NÃO conseguiria resolver só com números.
 """
 
-# ╔═╡ 0000r009-0000-4000-8000-000000000000
+# ╔═╡ 000ba009-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -140,8 +140,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p09s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038d-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e009-0000-4000-8000-000000000000
-# ╠═0000r009-0000-4000-8000-000000000000
+# ╠═000ba009-0000-4000-8000-000000000000

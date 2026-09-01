@@ -16,7 +16,7 @@ Marina tem quatro borrachas azuis, três amarelas, duas verdes e cinco vermelhas
 *Categoria 1 — Composição de medidas (4 partes) (Vergnaud)*
 """
 
-# ╔═╡ 0000p14c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -113,7 +113,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f1401-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Variável com a quantidade de borrachas azuis.
 """
@@ -121,7 +121,7 @@ Variável com a quantidade de borrachas azuis.
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdBorrachasAzuis = 4
 
-# ╔═╡ 0000f1402-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Variável com a quantidade de borrachas amarelas.
 """
@@ -129,7 +129,7 @@ Variável com a quantidade de borrachas amarelas.
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 qtdBorrachasAmarelas = 3
 
-# ╔═╡ 0000f1403-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Variável com a quantidade de borrachas verdes.
 """
@@ -137,7 +137,7 @@ Variável com a quantidade de borrachas verdes.
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 qtdBorrachasVerdes = 2
 
-# ╔═╡ 0000f1404-0000-4000-8000-000000000000
+# ╔═╡ 0000b004-0000-4000-8000-000000000000
 md"""
 Variável com a quantidade de borrachas vermelhas.
 """
@@ -145,7 +145,7 @@ Variável com a quantidade de borrachas vermelhas.
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 qtdBorrachasVermelhas = 5
 
-# ╔═╡ 0000f1405-0000-4000-8000-000000000000
+# ╔═╡ 0000b005-0000-4000-8000-000000000000
 md"""
 Definimos a função `soma`, que soma diretamente os quatro valores — essa solução tem custo fixo: só funciona para exatamente quatro cores.
 """
@@ -155,7 +155,7 @@ soma(qtdAzuis, qtdAmarelas, qtdVerdes, qtdVermelhas) = qtdAzuis + qtdAmarelas + 
 
 qtdTotalPorSomaDireta = soma(qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas)
 
-# ╔═╡ 0000f1406-0000-4000-8000-000000000000
+# ╔═╡ 0000b006-0000-4000-8000-000000000000
 md"""
 Guardamos as mesmas quantidades num **array** `qtdBorrachasPorCor`, uma lista que pode ter qualquer tamanho.
 """
@@ -163,7 +163,7 @@ Guardamos as mesmas quantidades num **array** `qtdBorrachasPorCor`, uma lista qu
 # ╔═╡ 00000009-0000-4000-8000-000000000000
 qtdBorrachasPorCor = [qtdBorrachasAzuis, qtdBorrachasAmarelas, qtdBorrachasVerdes, qtdBorrachasVermelhas]
 
-# ╔═╡ 0000f1407-0000-4000-8000-000000000000
+# ╔═╡ 0000b007-0000-4000-8000-000000000000
 md"""
 Usamos `sum` sobre o array para chegar ao mesmo total — essa versão generaliza para qualquer quantidade de cores, sem precisar reescrever a função a cada nova cor.
 """
@@ -178,22 +178,22 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p14c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000392-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f1401-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f1402-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f1403-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
-# ╠═0000f1404-0000-4000-8000-000000000000
+# ╠═0000b004-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
-# ╠═0000f1405-0000-4000-8000-000000000000
+# ╠═0000b005-0000-4000-8000-000000000000
 # ╠═00000008-0000-4000-8000-000000000000
-# ╠═0000f1406-0000-4000-8000-000000000000
+# ╠═0000b006-0000-4000-8000-000000000000
 # ╠═00000009-0000-4000-8000-000000000000
-# ╠═0000f1407-0000-4000-8000-000000000000
+# ╠═0000b007-0000-4000-8000-000000000000
 # ╠═0000000a-0000-4000-8000-000000000000
 # ╠═0000d014-0000-4000-8000-000000000000

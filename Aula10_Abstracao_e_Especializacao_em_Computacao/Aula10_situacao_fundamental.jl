@@ -16,7 +16,7 @@ Claudia tem 15 reais. Ela tem 7 reais a mais que Joana. Quantos reais Joana tem?
 *Categoria 3 — Comparação de medidas (referente desconhecido) (Vergnaud)*
 """
 
-# ╔═╡ 0000p10c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -122,7 +122,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f1001-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Variável com o dinheiro de Claudia.
 """
@@ -130,7 +130,7 @@ Variável com o dinheiro de Claudia.
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 dinheiroDeClaudia = 15
 
-# ╔═╡ 0000f1002-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Variável com a diferença entre o dinheiro das duas.
 """
@@ -138,7 +138,7 @@ Variável com a diferença entre o dinheiro das duas.
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 diferencaDeClaudiaAMais = 7
 
-# ╔═╡ 0000f1003-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Escrevemos a **abstração**: uma regra geral, válida para qualquer comparação "a mais que", sem depender dos nomes de Claudia e Joana.
 """
@@ -147,7 +147,7 @@ Escrevemos a **abstração**: uma regra geral, válida para qualquer comparaçã
 # abstração: regra geral, válida para qualquer comparação "a mais que"
 subtracao(dinheiroDeClaudia, diferencaDeClaudiaAMais) = dinheiroDeClaudia - diferencaDeClaudiaAMais
 
-# ╔═╡ 0000f1004-0000-4000-8000-000000000000
+# ╔═╡ 0000b004-0000-4000-8000-000000000000
 md"""
 **Especializamos** a regra geral, aplicando-a aos valores de Claudia e Joana para calcular o dinheiro de Joana.
 """
@@ -162,16 +162,16 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p10c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038e-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f1001-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f1002-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f1003-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
-# ╠═0000f1004-0000-4000-8000-000000000000
+# ╠═0000b004-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
 # ╠═0000d010-0000-4000-8000-000000000000

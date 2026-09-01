@@ -16,7 +16,7 @@ Carlos tem 7 reais a mais que João. João tem 2 reais a menos que Pedro. Qual �
 *Categoria 6 — Composição de relações (Vergnaud)*
 """
 
-# ╔═╡ 0000p15s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -157,7 +157,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** encadear uma quarta pessoa na comparação, compondo três diferenças em vez de duas.
 """
 
-# ╔═╡ 0000r015-0000-4000-8000-000000000000
+# ╔═╡ 000ba015-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -169,8 +169,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p15s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000393-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e015-0000-4000-8000-000000000000
-# ╠═0000r015-0000-4000-8000-000000000000
+# ╠═000ba015-0000-4000-8000-000000000000

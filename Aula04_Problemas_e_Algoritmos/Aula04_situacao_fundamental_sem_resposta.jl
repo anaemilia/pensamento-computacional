@@ -16,7 +16,7 @@ Karla coleciona fofoletes. Mês passado, ela tinha 25 fofoletes. Hoje ela contou
 *Categoria 2 — Transformação de medidas (transformação desconhecida) (Vergnaud)*
 """
 
-# ╔═╡ 0000p04s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -116,7 +116,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** reescrever a solução como uma função `calcularGanho`, reutilizável para qualquer mês.
 """
 
-# ╔═╡ 0000r004-0000-4000-8000-000000000000
+# ╔═╡ 000ba004-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -128,8 +128,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p04s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e004-0000-4000-8000-000000000000
-# ╠═0000r004-0000-4000-8000-000000000000
+# ╠═000ba004-0000-4000-8000-000000000000

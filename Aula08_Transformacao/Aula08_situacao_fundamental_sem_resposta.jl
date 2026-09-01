@@ -16,7 +16,7 @@ Marcus e Jardel colecionam carrinhos em miniatura. Marcus tem 23 carrinhos e Jar
 *Categoria 3 — Comparação de medidas (diferença desconhecida) (Vergnaud)*
 """
 
-# ╔═╡ 0000p08s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -116,7 +116,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** escrever uma função que diga também *quem* tem mais, além do valor da diferença.
 """
 
-# ╔═╡ 0000r008-0000-4000-8000-000000000000
+# ╔═╡ 000ba008-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -128,8 +128,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p08s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038c-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e008-0000-4000-8000-000000000000
-# ╠═0000r008-0000-4000-8000-000000000000
+# ╠═000ba008-0000-4000-8000-000000000000

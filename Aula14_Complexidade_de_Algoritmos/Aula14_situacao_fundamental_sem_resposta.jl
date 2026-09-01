@@ -16,7 +16,7 @@ Marina tem quatro borrachas azuis, três amarelas, duas verdes e cinco vermelhas
 *Categoria 1 — Composição de medidas (4 partes) (Vergnaud)*
 """
 
-# ╔═╡ 0000p14s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -125,7 +125,7 @@ Esta atividade pede para resolver o problema de **duas formas diferentes** e com
 **Desafio extra:** testar as duas funções com uma quinta cor de borracha e comparar o esforço de mudar cada uma.
 """
 
-# ╔═╡ 0000r014-0000-4000-8000-000000000000
+# ╔═╡ 000ba014-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -137,8 +137,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p14s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000392-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e014-0000-4000-8000-000000000000
-# ╠═0000r014-0000-4000-8000-000000000000
+# ╠═000ba014-0000-4000-8000-000000000000

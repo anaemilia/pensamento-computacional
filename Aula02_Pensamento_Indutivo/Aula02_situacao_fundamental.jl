@@ -16,7 +16,7 @@ Maria foi fazer compras na feira com R\$ 25,00. Gastou R\$ 18,00 comprando fruta
 *Categoria 2 — Transformação de medidas (Vergnaud)*
 """
 
-# ╔═╡ 0000p02c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -110,7 +110,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f0201-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Variável `dinheiroInicialNaFeira` guarda quanto dinheiro Maria tinha ao chegar na feira.
 """
@@ -118,7 +118,7 @@ Variável `dinheiroInicialNaFeira` guarda quanto dinheiro Maria tinha ao chegar 
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 dinheiroInicialNaFeira = 25
 
-# ╔═╡ 0000f0202-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Variável `gastoComFrutasEVerduras` guarda quanto ela gastou.
 """
@@ -126,7 +126,7 @@ Variável `gastoComFrutasEVerduras` guarda quanto ela gastou.
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 gastoComFrutasEVerduras = 18
 
-# ╔═╡ 0000f0203-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Definimos a função `subtracao`, que recebe dois valores e devolve a diferença entre eles, e a usamos neste caso concreto para calcular `dinheiroFinalDeMaria`.
 """
@@ -136,7 +136,7 @@ subtracao(dinheiroInicial, valorGasto) = dinheiroInicial - valorGasto   # funç�
 
 dinheiroFinalDeMaria = subtracao(dinheiroInicialNaFeira, gastoComFrutasEVerduras)
 
-# ╔═╡ 0000f0204-0000-4000-8000-000000000000
+# ╔═╡ 0000b004-0000-4000-8000-000000000000
 md"""
 Agora escrevemos a **regra geral** que esse caso revela: uma função `sobraDoDinheiro` que funciona para qualquer valor inicial e qualquer gasto, não só para os números de Maria — isso é *induzir* uma regra a partir de um exemplo.
 """
@@ -145,7 +145,7 @@ Agora escrevemos a **regra geral** que esse caso revela: uma função `sobraDoDi
 # regra geral induzida a partir do caso acima
 sobraDoDinheiro(valorInicial, valorGasto) = valorInicial - valorGasto
 
-# ╔═╡ 0000f0205-0000-4000-8000-000000000000
+# ╔═╡ 0000b005-0000-4000-8000-000000000000
 md"""
 Aplicamos a regra geral aos mesmos números do caso de Maria, para confirmar que ela dá a mesma resposta.
 """
@@ -160,18 +160,18 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p02c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000386-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0201-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0202-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0203-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
-# ╠═0000f0204-0000-4000-8000-000000000000
+# ╠═0000b004-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
-# ╠═0000f0205-0000-4000-8000-000000000000
+# ╠═0000b005-0000-4000-8000-000000000000
 # ╠═00000008-0000-4000-8000-000000000000
 # ╠═0000d002-0000-4000-8000-000000000000

@@ -16,7 +16,7 @@ Geisa tinha uma caixa com 35 chocolates. Comeu 2 ontem e 5 hoje. Quantos chocola
 *Categoria 4 — Composição de transformações (Vergnaud)*
 """
 
-# ╔═╡ 0000p11c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -111,7 +111,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f1101-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Definimos um **novo tipo** chamado `CaixaDeChocolates`, que agrupa três quantidades relacionadas (estoque e dois consumos) num único pacote de dados.
 """
@@ -123,7 +123,7 @@ struct CaixaDeChocolates
     qtdConsumidaHoje::Int
 end
 
-# ╔═╡ 0000f1102-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Criamos uma caixa concreta, `caixaDaGeisa`, preenchendo o tipo com os valores reais do problema.
 """
@@ -131,7 +131,7 @@ Criamos uma caixa concreta, `caixaDaGeisa`, preenchendo o tipo com os valores re
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 caixaDaGeisa = CaixaDeChocolates(35, 2, 5)
 
-# ╔═╡ 0000f1103-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Definimos a função `subtracao` e a usamos com os campos da caixa (acessados com `.`) para calcular quantos chocolates restam.
 """
@@ -148,14 +148,14 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p11c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038f-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f1101-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f1102-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f1103-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000d011-0000-4000-8000-000000000000

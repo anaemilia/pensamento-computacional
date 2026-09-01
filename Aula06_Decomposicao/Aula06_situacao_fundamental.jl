@@ -16,7 +16,7 @@ Paulo tem 17 bolas azuis e vermelhas. Se ele tem 11 bolas azuis, quantas bolas v
 *Categoria 1 — Composição de medidas (parte desconhecida) (Vergnaud)*
 """
 
-# ╔═╡ 0000p06c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -109,7 +109,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f0601-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Variável `qtdBolasTotal` guarda o todo: a quantidade total de bolas.
 """
@@ -117,7 +117,7 @@ Variável `qtdBolasTotal` guarda o todo: a quantidade total de bolas.
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdBolasTotal = 17   # o todo
 
-# ╔═╡ 0000f0602-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Variável `qtdBolasAzuis` guarda uma das partes, que já conhecemos.
 """
@@ -125,7 +125,7 @@ Variável `qtdBolasAzuis` guarda uma das partes, que já conhecemos.
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 qtdBolasAzuis = 11   # parte 1, conhecida
 
-# ╔═╡ 0000f0603-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Definimos a função `subtracao` e a usamos para *decompor* o todo na parte que faltava: as bolas vermelhas.
 """
@@ -142,14 +142,14 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p06c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038a-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0601-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0602-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0603-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000d006-0000-4000-8000-000000000000

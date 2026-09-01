@@ -16,7 +16,7 @@ Maria faz coleção de figurinhas. Ela tem 32 figurinhas. Sua mãe a presenteou 
 *Categoria 2 — Transformação de medidas (Vergnaud)*
 """
 
-# ╔═╡ 0000p01c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -123,7 +123,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f0101-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Aqui criamos a **variável** `qtdFiguIniciais` e guardamos nela o valor 32 — é a *entrada* do problema: a quantidade de figurinhas que Maria já tinha.
 """
@@ -131,7 +131,7 @@ Aqui criamos a **variável** `qtdFiguIniciais` e guardamos nela o valor 32 — �
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdFiguIniciais = 32   # entrada 1
 
-# ╔═╡ 0000f0102-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Nova variável `qtdFiguRecebidas` guarda o segundo valor de entrada: as figurinhas que a mãe deu a Maria.
 """
@@ -139,7 +139,7 @@ Nova variável `qtdFiguRecebidas` guarda o segundo valor de entrada: as figurinh
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 qtdFiguRecebidas = 22   # entrada 2
 
-# ╔═╡ 0000f0103-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Na primeira linha definimos uma **função** chamada `soma`, que recebe dois valores e devolve a soma deles. Na segunda linha chamamos essa função com as duas variáveis de entrada e guardamos o resultado em `qtdFiguTotal` — é o *processo* e a *saída* juntos.
 """
@@ -156,14 +156,14 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p01c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000385-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0101-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0102-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0103-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000d001-0000-4000-8000-000000000000

@@ -16,7 +16,7 @@ Geisa tinha uma caixa com 35 chocolates. Comeu 2 ontem e 5 hoje. Quantos chocola
 *Categoria 4 — Composição de transformações (Vergnaud)*
 """
 
-# ╔═╡ 0000p11s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -125,7 +125,7 @@ end
 **Desafio extra:** adicionar um novo campo ao tipo `CaixaDeChocolates`, por exemplo `qtdConsumidaAnteontem`.
 """
 
-# ╔═╡ 0000r011-0000-4000-8000-000000000000
+# ╔═╡ 000ba011-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -137,8 +137,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p11s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038f-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e011-0000-4000-8000-000000000000
-# ╠═0000r011-0000-4000-8000-000000000000
+# ╠═000ba011-0000-4000-8000-000000000000

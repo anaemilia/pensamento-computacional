@@ -16,7 +16,7 @@ Paulo tem 6 bolas. José tem 8 bolas a mais que Paulo. Quantas bolas tem José?
 *Categoria 3 — Comparação de medidas (referido desconhecido) (Vergnaud)*
 """
 
-# ╔═╡ 0000p07s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -129,7 +129,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** testar a função `soma` com uma segunda pessoa comparada a José.
 """
 
-# ╔═╡ 0000r007-0000-4000-8000-000000000000
+# ╔═╡ 000ba007-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -141,8 +141,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p07s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038b-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e007-0000-4000-8000-000000000000
-# ╠═0000r007-0000-4000-8000-000000000000
+# ╠═000ba007-0000-4000-8000-000000000000

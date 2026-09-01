@@ -16,7 +16,7 @@ João jogou duas partidas de bila. Na segunda ele ganhou 12 bolas. Ao final das 
 *Categoria 4 — Composição de transformações (uma incógnita) (Vergnaud)*
 """
 
-# ╔═╡ 0000p12s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -118,7 +118,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** adicionar uma `:terceiraPartida` ao dicionário e recalcular o total.
 """
 
-# ╔═╡ 0000r012-0000-4000-8000-000000000000
+# ╔═╡ 000ba012-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -130,8 +130,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p12s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000390-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e012-0000-4000-8000-000000000000
-# ╠═0000r012-0000-4000-8000-000000000000
+# ╠═000ba012-0000-4000-8000-000000000000

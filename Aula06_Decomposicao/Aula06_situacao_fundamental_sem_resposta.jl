@@ -16,7 +16,7 @@ Paulo tem 17 bolas azuis e vermelhas. Se ele tem 11 bolas azuis, quantas bolas v
 *Categoria 1 — Composição de medidas (parte desconhecida) (Vergnaud)*
 """
 
-# ╔═╡ 0000p06s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -115,7 +115,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** criar uma função `decompor` que funcione para qualquer todo e qualquer parte conhecida.
 """
 
-# ╔═╡ 0000r006-0000-4000-8000-000000000000
+# ╔═╡ 000ba006-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -127,8 +127,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p06s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038a-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e006-0000-4000-8000-000000000000
-# ╠═0000r006-0000-4000-8000-000000000000
+# ╠═000ba006-0000-4000-8000-000000000000

@@ -16,7 +16,7 @@ Leandro tinha 10 balas. Lucas, seu irmão, pegou algumas balas escondidas de Lea
 *Categoria 2 — Transformação de medidas (transformação desconhecida) (Vergnaud)*
 """
 
-# ╔═╡ 0000p03s-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -130,7 +130,7 @@ Para escrever o código, clique no botão **+** abaixo desta célula para criar 
 **Desafio extra:** escrever a função de forma que funcione também se Lucas tivesse ganhado balas, em vez de comido.
 """
 
-# ╔═╡ 0000r003-0000-4000-8000-000000000000
+# ╔═╡ 000ba003-0000-4000-8000-000000000000
 md"""
 ### Rubrica de avaliação (professor)
 
@@ -142,8 +142,8 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p03s-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000387-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═0000e003-0000-4000-8000-000000000000
-# ╠═0000r003-0000-4000-8000-000000000000
+# ╠═000ba003-0000-4000-8000-000000000000

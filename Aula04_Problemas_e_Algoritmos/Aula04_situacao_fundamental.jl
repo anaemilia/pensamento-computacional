@@ -16,7 +16,7 @@ Karla coleciona fofoletes. Mês passado, ela tinha 25 fofoletes. Hoje ela contou
 *Categoria 2 — Transformação de medidas (transformação desconhecida) (Vergnaud)*
 """
 
-# ╔═╡ 0000p04c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -110,7 +110,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f0401-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Passo 1 do algoritmo: guardamos o estado inicial, a quantidade de fofoletes do mês passado.
 """
@@ -118,7 +118,7 @@ Passo 1 do algoritmo: guardamos o estado inicial, a quantidade de fofoletes do m
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdFofoletesMesPassado = 25   # passo 1: ler o estado inicial
 
-# ╔═╡ 0000f0402-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Passo 2: guardamos o estado final, a quantidade de hoje.
 """
@@ -126,7 +126,7 @@ Passo 2: guardamos o estado final, a quantidade de hoje.
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 qtdFofoletesHoje = 34   # passo 2: ler o estado final
 
-# ╔═╡ 0000f0403-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Passo 3: definimos a função `subtracao` e a usamos para calcular quantas fofoletes foram ganhas — cada célula do notebook corresponde a um passo do algoritmo, executado em ordem.
 """
@@ -143,14 +143,14 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p04c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═00000388-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0401-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0402-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0403-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
 # ╠═0000d004-0000-4000-8000-000000000000

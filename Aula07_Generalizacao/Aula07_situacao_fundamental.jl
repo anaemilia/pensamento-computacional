@@ -16,7 +16,7 @@ Paulo tem 6 bolas. José tem 8 bolas a mais que Paulo. Quantas bolas tem José?
 *Categoria 3 — Comparação de medidas (referido desconhecido) (Vergnaud)*
 """
 
-# ╔═╡ 0000p07c-0000-4000-8000-000000000000
+# ╔═╡ 0000b000-0000-4000-8000-000000000000
 md"""
 💭 **Para pensar antes de calcular**
 
@@ -122,7 +122,7 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
-# ╔═╡ 0000f0701-0000-4000-8000-000000000000
+# ╔═╡ 0000b001-0000-4000-8000-000000000000
 md"""
 Variável com a quantidade de bolas de Paulo.
 """
@@ -130,7 +130,7 @@ Variável com a quantidade de bolas de Paulo.
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdBolasDePaulo = 6
 
-# ╔═╡ 0000f0702-0000-4000-8000-000000000000
+# ╔═╡ 0000b002-0000-4000-8000-000000000000
 md"""
 Variável com a diferença — quantas bolas José tem a mais que Paulo.
 """
@@ -138,7 +138,7 @@ Variável com a diferença — quantas bolas José tem a mais que Paulo.
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 diferencaDeJoseAMais = 8
 
-# ╔═╡ 0000f0703-0000-4000-8000-000000000000
+# ╔═╡ 0000b003-0000-4000-8000-000000000000
 md"""
 Em vez de resolver só este caso, definimos uma função `soma` que resolve *qualquer* comparação do tipo "a mais que" — essa é a generalização.
 """
@@ -147,7 +147,7 @@ Em vez de resolver só este caso, definimos uma função `soma` que resolve *qua
 # solução generalizada para qualquer comparação "a mais que"
 soma(qtdBolasDePaulo, diferencaDeJoseAMais) = qtdBolasDePaulo + diferencaDeJoseAMais
 
-# ╔═╡ 0000f0704-0000-4000-8000-000000000000
+# ╔═╡ 0000b004-0000-4000-8000-000000000000
 md"""
 Usamos a função generalizada para calcular a quantidade de bolas de José neste caso específico.
 """
@@ -162,16 +162,16 @@ md"""
 
 # ╔═╡ Cell order:
 # ╠═00000001-0000-4000-8000-000000000000
-# ╠═0000p07c-0000-4000-8000-000000000000
+# ╠═0000b000-0000-4000-8000-000000000000
 # ╠═0000038b-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
-# ╠═0000f0701-0000-4000-8000-000000000000
+# ╠═0000b001-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
-# ╠═0000f0702-0000-4000-8000-000000000000
+# ╠═0000b002-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
-# ╠═0000f0703-0000-4000-8000-000000000000
+# ╠═0000b003-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
-# ╠═0000f0704-0000-4000-8000-000000000000
+# ╠═0000b004-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
 # ╠═0000d007-0000-4000-8000-000000000000
