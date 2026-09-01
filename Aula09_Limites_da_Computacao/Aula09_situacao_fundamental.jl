@@ -113,11 +113,26 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
+# ╔═╡ 0000f0901-0000-4000-8000-000000000000
+md"""
+Variável com o dinheiro de Ligianne.
+"""
+
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 dinheiroDeLigianne = 27
 
+# ╔═╡ 0000f0902-0000-4000-8000-000000000000
+md"""
+Variável com a diferença — quanto Ingrid tem a mais.
+"""
+
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 diferencaDeIngridAMais = 12
+
+# ╔═╡ 0000f0903-0000-4000-8000-000000000000
+md"""
+Definimos a função `soma` e a usamos para calcular o dinheiro de Ingrid: o computador soma os números perfeitamente, mas não sabe o que é "dinheiro" — só manipula os valores que demos a ele.
+"""
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 soma(dinheiroDeLigianne, diferencaDeIngridAMais) = dinheiroDeLigianne + diferencaDeIngridAMais   # função que soma dois valores
@@ -129,6 +144,9 @@ dinheiroDeIngrid = soma(dinheiroDeLigianne, diferencaDeIngridAMais)
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═0000f0901-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
+# ╠═0000f0902-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
+# ╠═0000f0903-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000

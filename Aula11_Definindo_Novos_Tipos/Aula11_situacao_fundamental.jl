@@ -100,6 +100,11 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
+# ╔═╡ 0000f1101-0000-4000-8000-000000000000
+md"""
+Definimos um **novo tipo** chamado `CaixaDeChocolates`, que agrupa três quantidades relacionadas (estoque e dois consumos) num único pacote de dados.
+"""
+
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 struct CaixaDeChocolates
     qtdEstoque::Int
@@ -107,8 +112,18 @@ struct CaixaDeChocolates
     qtdConsumidaHoje::Int
 end
 
+# ╔═╡ 0000f1102-0000-4000-8000-000000000000
+md"""
+Criamos uma caixa concreta, `caixaDaGeisa`, preenchendo o tipo com os valores reais do problema.
+"""
+
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 caixaDaGeisa = CaixaDeChocolates(35, 2, 5)
+
+# ╔═╡ 0000f1103-0000-4000-8000-000000000000
+md"""
+Definimos a função `subtracao` e a usamos com os campos da caixa (acessados com `.`) para calcular quantos chocolates restam.
+"""
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 subtracao(qtdEstoque, qtdConsumidaOntem, qtdConsumidaHoje) = qtdEstoque - qtdConsumidaOntem - qtdConsumidaHoje   # função que subtrai duas quantidades de uma quantidade inicial
@@ -120,6 +135,9 @@ qtdChocolatesRestantes = subtracao(caixaDaGeisa.qtdEstoque, caixaDaGeisa.qtdCons
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═0000f1101-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
+# ╠═0000f1102-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
+# ╠═0000f1103-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000

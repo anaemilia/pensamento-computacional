@@ -114,15 +114,35 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
+# ╔═╡ 0000f0301-0000-4000-8000-000000000000
+md"""
+Variável com a quantidade de balas que Leandro tinha antes.
+"""
+
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdBalasDeLeandroAntes = 10
+
+# ╔═╡ 0000f0302-0000-4000-8000-000000000000
+md"""
+Variável com a quantidade de balas que restaram depois.
+"""
 
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 qtdBalasDeLeandroDepois = 6
 
+# ╔═╡ 0000f0303-0000-4000-8000-000000000000
+md"""
+Aqui reaproveitamos a regra geral "transformação = estado inicial − estado final", já conhecida, escrevendo-a como uma função `subtracao` — isso é *deduzir*: partimos da regra geral para resolver o caso específico.
+"""
+
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # regra geral já conhecida, aplicada dedutivamente a este caso
 subtracao(qtdBalasAntes, qtdBalasDepois) = qtdBalasAntes - qtdBalasDepois
+
+# ╔═╡ 0000f0304-0000-4000-8000-000000000000
+md"""
+Aplicamos essa função aos valores de Leandro para calcular quantas balas Lucas comeu.
+"""
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDepois)
@@ -132,7 +152,11 @@ qtdBalasComidasPorLucas = subtracao(qtdBalasDeLeandroAntes, qtdBalasDeLeandroDep
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═0000f0301-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
+# ╠═0000f0302-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
+# ╠═0000f0303-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000f0304-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000

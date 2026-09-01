@@ -100,11 +100,26 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
+# ╔═╡ 0000f1201-0000-4000-8000-000000000000
+md"""
+Criamos um **dicionário** `ganhoPorPartida`, que liga a categoria `:segundaPartida` ao valor ganho nela — a ação "ganhar" só faz sentido associada a essa categoria.
+"""
+
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 ganhoPorPartida = Dict(:segundaPartida => 12)   # ação ligada à categoria "partida"
 
+# ╔═╡ 0000f1202-0000-4000-8000-000000000000
+md"""
+Variável com o ganho total somando as duas partidas.
+"""
+
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 qtdGanhoTotalNasDuasPartidas = 22
+
+# ╔═╡ 0000f1203-0000-4000-8000-000000000000
+md"""
+Definimos a função `subtracao` e a usamos para descobrir o ganho da primeira partida, buscando o valor da segunda no dicionário com `ganhoPorPartida[:segundaPartida]`.
+"""
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 subtracao(qtdGanhoTotal, qtdGanhoSegundaPartida) = qtdGanhoTotal - qtdGanhoSegundaPartida   # função que subtrai dois valores
@@ -116,6 +131,9 @@ qtdGanhoNaPrimeiraPartida = subtracao(qtdGanhoTotalNasDuasPartidas, ganhoPorPart
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═0000f1201-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
+# ╠═0000f1202-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
+# ╠═0000f1203-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000

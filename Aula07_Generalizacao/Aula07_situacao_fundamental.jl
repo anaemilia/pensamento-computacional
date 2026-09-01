@@ -113,15 +113,35 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
+# ╔═╡ 0000f0701-0000-4000-8000-000000000000
+md"""
+Variável com a quantidade de bolas de Paulo.
+"""
+
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdBolasDePaulo = 6
+
+# ╔═╡ 0000f0702-0000-4000-8000-000000000000
+md"""
+Variável com a diferença — quantas bolas José tem a mais que Paulo.
+"""
 
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 diferencaDeJoseAMais = 8
 
+# ╔═╡ 0000f0703-0000-4000-8000-000000000000
+md"""
+Em vez de resolver só este caso, definimos uma função `soma` que resolve *qualquer* comparação do tipo "a mais que" — essa é a generalização.
+"""
+
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # solução generalizada para qualquer comparação "a mais que"
 soma(qtdBolasDePaulo, diferencaDeJoseAMais) = qtdBolasDePaulo + diferencaDeJoseAMais
+
+# ╔═╡ 0000f0704-0000-4000-8000-000000000000
+md"""
+Usamos a função generalizada para calcular a quantidade de bolas de José neste caso específico.
+"""
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 qtdBolasDeJose = soma(qtdBolasDePaulo, diferencaDeJoseAMais)
@@ -131,7 +151,11 @@ qtdBolasDeJose = soma(qtdBolasDePaulo, diferencaDeJoseAMais)
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═0000f0701-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
+# ╠═0000f0702-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
+# ╠═0000f0703-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000f0704-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000

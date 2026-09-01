@@ -100,15 +100,35 @@ md"""
 Execute as células de código abaixo, uma por vez, e observe o resultado de cada uma antes de seguir para a próxima.
 """
 
+# ╔═╡ 0000f0801-0000-4000-8000-000000000000
+md"""
+Variável com a quantidade de carrinhos de Marcus — o primeiro estado.
+"""
+
 # ╔═╡ 00000004-0000-4000-8000-000000000000
 qtdCarrinhosDeMarcus = 23   # estado 1
+
+# ╔═╡ 0000f0802-0000-4000-8000-000000000000
+md"""
+Variável com a quantidade de carrinhos de Jardel — o segundo estado.
+"""
 
 # ╔═╡ 00000005-0000-4000-8000-000000000000
 qtdCarrinhosDeJardel = 11   # estado 2
 
+# ╔═╡ 0000f0803-0000-4000-8000-000000000000
+md"""
+Definimos a função `subtracao`, que calcula a *transformação* entre dois estados quaisquer, não só entre estes dois meninos.
+"""
+
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 # a transformação entre dois estados quaisquer
 subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel) = qtdCarrinhosDeMarcus - qtdCarrinhosDeJardel
+
+# ╔═╡ 0000f0804-0000-4000-8000-000000000000
+md"""
+Aplicamos a função aos dois estados para calcular a diferença entre eles.
+"""
 
 # ╔═╡ 00000007-0000-4000-8000-000000000000
 diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)
@@ -118,7 +138,11 @@ diferencaAMenosDeJardel = subtracao(qtdCarrinhosDeMarcus, qtdCarrinhosDeJardel)
 # ╠═00000001-0000-4000-8000-000000000000
 # ╠═00000002-0000-4000-8000-000000000000
 # ╠═00000003-0000-4000-8000-000000000000
+# ╠═0000f0801-0000-4000-8000-000000000000
 # ╠═00000004-0000-4000-8000-000000000000
+# ╠═0000f0802-0000-4000-8000-000000000000
 # ╠═00000005-0000-4000-8000-000000000000
+# ╠═0000f0803-0000-4000-8000-000000000000
 # ╠═00000006-0000-4000-8000-000000000000
+# ╠═0000f0804-0000-4000-8000-000000000000
 # ╠═00000007-0000-4000-8000-000000000000
