@@ -1,0 +1,533 @@
+### A Pluto.jl notebook ###
+# v0.20.24
+
+using Markdown
+using InteractiveUtils
+
+# ╔═╡ bcf6de1c-b464-451b-afec-89f9c0fb196c
+md"""
+## Versão: Historia
+
+Adaptada de [https://pluto.land/n/dh74bbcm](https://pluto.land/n/dh74bbcm). Mantém a sequência completa 8.1–8.11, incluindo os desafios de depuração.
+
+Os exemplos originais foram preservados; as orientações adicionais identificam a aplicação desta versão.
+"""
+
+# ╔═╡ 601f4066-6839-4038-950e-8e80bbf246fc
+md"""
+# Aula 08 — Técnicas de construção de algoritmos: transformação
+
+Notebook Pluto com as 10 tarefas práticas em Julia deste bloco. Cada tarefa tem uma pergunta-guia, os passos sugeridos e um exemplo de código para explorar antes de discutir com a turma.
+
+*Pensamento Computacional — PROFCOMP*
+"""
+
+# ╔═╡ 7e23d48a-281a-4e5c-8c00-815c4e562b17
+md"""
+### Tarefa 8.1 — Como transformar unidades?
+
+**No Pluto:**
+- Crie valores em Celsius.
+- Aplique fórmula.
+- Compare escalas.
+
+*Por que importa:* A transformação evidencia que o mesmo fenômeno pode ser representado em diferentes sistemas.
+"""
+
+# ╔═╡ 40ca6f35-8799-4c73-a8b7-ca1da75f0d5d
+md"""
+
+##### Vamos começar com apenas um escalar (sem usar listas)
+
+A fórmula para transformar Celsius em Fahrenheit:
+
+Para zero graus Celsius temos:
+(O °C × 9/5) + 32 = 32 °F
+
+Generalizando:
+
+(C × 9/5) + 32 = F
+
+"""
+
+# ╔═╡ 1c0a7cef-68c4-4e00-96f2-8ed9c4346294
+let
+	C = 25
+	F = C * 9/5 + 32
+end
+
+# ╔═╡ 9570febc-b6cf-4a7b-ba97-e774ce9f5d7c
+C = 30
+
+# ╔═╡ 481daae7-d4ef-4318-92c4-af8c36bd97f8
+F = C * 9/5 + 32
+
+# ╔═╡ 9107ab2b-b6b8-4dd4-b045-40cff43a6c4f
+
+
+# ╔═╡ 421dd964-4a4f-4475-9588-b4e99fd1411f
+md"""
+
+##### Agora vamos usar listas: 
+
+"""
+
+# ╔═╡ 127c3fd9-4287-46c7-a714-009b947217d9
+let
+    celsius = [25, 28, 30]
+    fahrenheit = celsius .* 9/5 .+ 32
+end
+
+# ╔═╡ 976b21bb-0687-4377-83bc-6573cca5e492
+md"""
+**Aplicação — 8.1**
+
+Use temperaturas fictícias de um registro de viagem para comparar Celsius e Fahrenheit. Preserve o valor físico; não trate estes dados didáticos como fonte histórica.
+"""
+
+# ╔═╡ ad277bf4-6dca-417f-8121-78ccfe2d9ddf
+md"""
+### Tarefa 8.2 — Como transformar valores em categorias?
+
+**No Pluto:**
+- Use médias numéricas.
+- Classifique cada uma.
+- Discuta perda e ganho de informação.
+
+*Por que importa:* Categorizar simplifica a leitura, mas pode esconder nuances dos dados.
+"""
+
+# ╔═╡ 2bfb01a8-9a11-467a-ae3a-67fa9537cbb5
+md"""
+
+##### Vamos começar com apenas escalares (sem usar listas)
+
+"""
+
+
+# ╔═╡ 2ed202f9-d6a6-4035-9d70-441d020b1cb1
+nota1 = rand(0:10) #função rand: execute esta célula algumas vezes e veja o que ela                     #faz
+
+# ╔═╡ d1481488-1c56-47b6-825a-8b49909f97a2
+let
+	nota1 = rand(0:10)
+	nota2 = rand(0:10)
+	nota3 = rand(0:10)
+	println(nota1, " ", nota2, " ", nota3)
+	media = nota1+nota2+nota3/3
+	println("media = ", media)
+	categoria = media >= 7 ? "ok" : "rever"
+end
+
+# ╔═╡ cc74c95b-2117-45ff-8189-79ba16d766c1
+md"""
+
+##### Tem algo de estranho no código acima! Vamos rever ???
+
+"""
+
+
+# ╔═╡ 8a1355c5-8e36-42aa-bfa5-0fcabb7d9951
+md"""
+
+##### Agora vamos usar listas: 
+
+"""
+
+
+# ╔═╡ 70f28559-16e4-4cef-bffa-57dc6726a55e
+let
+    medias = [4.5, 6.5, 8.0]
+    categorias = [m>=7 ? "ok" : "rever" for m in medias]
+end
+
+# ╔═╡ 460bb2e8-37b6-4949-a704-a4bb431a6c3b
+md"""
+
+##### Vamos 4 médias e coloca-las na lista medias ? 
+
+"""
+
+
+# ╔═╡ 7bd3766e-e0b9-4111-830c-b5bd24745346
+let
+	medias = [0.0,0.0,0.0,0.0]
+	for i in 1:4 #loop para construção de lista com 4 médias
+		nota1 = rand(0:10)
+		nota2 = rand(0:10)
+		nota3 = rand(0:10)
+		medias[i] = +(nota1,nota2,nota3)/3 
+		println(medias[i])
+	end
+	categorias = [m>=7 ? "ok" : "rever" for m in medias]
+end
+
+# ╔═╡ b6352530-c5d9-4124-a915-e36535c42357
+md"""
+**Aplicação — 8.2**
+
+Agrupe anos fictícios [1905, 1950, 2005] em antes/depois de 2000. Compare o ano exato com a categoria; explique por que o recorte precisa ser justificado.
+"""
+
+# ╔═╡ a37d0f1e-51c5-4479-98ac-020efcf5ffae
+md"""
+### Tarefa 8.3 — Como transformar dados brutos em frequência?
+
+**No Pluto:**
+- Conte ocorrências.
+- Crie dicionário.
+- Interprete a distribuição.
+
+*Por que importa:* Frequência transforma respostas individuais em padrão coletivo.
+"""
+
+# ╔═╡ bb186749-42c6-4be8-8d09-873085045714
+let
+    dados = ["A","B","A","C","A"]
+    freq = Dict(x=>count(==(x), dados) for x in unique(dados))
+	println(freq)
+	println(keys(freq))
+	print(freq["C"])
+end
+
+# ╔═╡ 4119e644-d001-4ce3-a9b9-26eb5fdda8ac
+md"""
+**Aplicação — 8.3**
+
+Conte tipos de fontes de um acervo fictício: carta, foto, carta, mapa, carta. O que a frequência permite afirmar e o que ela não revela sobre o conteúdo?
+"""
+
+# ╔═╡ 68ccfbc4-8414-4acf-a4ac-af052b4c146c
+md"""
+### Tarefa 8.4 — Como transformar uma lista filtrando valores?
+
+**No Pluto:**
+- Defina critério.
+- Selecione elementos.
+- Discuta o que ficou fora.
+
+*Por que importa:* Filtrar exige explicitar critério e refletir sobre a parte do conjunto selecionada.
+"""
+
+# ╔═╡ a3923b26-2c44-4c21-a09a-e0a23b6e3263
+let
+    notas = [4, 6, 8, 9]
+    altas = [n for n in notas if n >= 7]
+end
+
+# ╔═╡ cd41f2ca-1d4a-4717-a41b-e48bff5e0c09
+md"""
+**Aplicação — 8.4**
+
+Selecione os anos do exercício 8.2 que atendem a um recorte temporal explícito. Explique o que ficou fora.
+"""
+
+# ╔═╡ 7e9f7451-4d22-4007-8cb7-4f199e267b69
+md"""
+### Tarefa 8.5 — Como transformar dados por normalização?
+
+**No Pluto:**
+- Subtraia o mínimo.
+- Divida pelo intervalo.
+- Compare antes e depois.
+
+*Por que importa:* Normalizar mostra que dados podem manter ordem relativa mesmo mudando de escala.
+"""
+
+# ╔═╡ 63ddffdf-7d59-4da1-ac8e-a0a1ba2b3fcc
+let
+    x = [10, 20, 30]
+    normalizado = (x .- minimum(x)) ./ (maximum(x)-minimum(x))
+end
+
+# ╔═╡ 7a248a7c-ac7b-453a-bb52-5d0edff29aa3
+md"""
+
+##### Como somos professores, vamos normalizar umas notas? 
+
+"""
+
+
+# ╔═╡ 2cc9fd7b-cf16-4422-9cfa-83a25076a7fc
+let
+    notas = [3, 4, 4, 6, 7, 5]
+    normalizado = (notas .- minimum(notas)) ./ (maximum(notas)-minimum(notas))
+end
+
+# ╔═╡ 2d749cd8-ed23-4993-8844-ed3e92d421db
+let
+    notas = [0, 3, 4, 4, 6, 7, 5]
+    normalizado = (notas .- minimum(notas)) ./ (maximum(notas)-minimum(notas))
+end
+
+# ╔═╡ 200ba6c2-4755-425a-a521-f6844855cfcd
+md"""
+**Aplicação — 8.5**
+
+Normalize quantidades fictícias de documentos [10, 20, 30]. Distinga quantidade absoluta de posição relativa na coleção.
+"""
+
+# ╔═╡ 9cf5f07c-930b-4be9-8827-95a75dd0e0f3
+md"""
+### Tarefa 8.6 — Como transformar forma de representação?
+
+**No Pluto:**
+- Converta lista para pares.
+- Depois para dicionário.
+- Compare acessos.
+
+*Por que importa:* A relação nome–valor pode ser vista como tabela, pares ou dicionário, cada qual com um uso.
+"""
+
+# ╔═╡ b31b0487-c9a8-43fe-a3d5-2231c271013d
+let
+    nomes = ["A","B"]
+    valores = [10,20]
+    pares = collect(zip(nomes,valores))
+    dict = Dict(pares)
+end
+
+# ╔═╡ 9e445e89-e128-415e-bcd8-8c2f0a2ac53e
+md"""
+
+**No Pluto:**
+
+- Converta lista para trios.
+
+- Depois para dicionário.
+
+- Compare acessos.
+
+**O que acontece ???**
+
+"""
+
+# ╔═╡ 4edac575-83b5-489d-b8c1-f3e05235020e
+let
+    nomes = ["A","B"]
+    valores = [10,20]
+	simbolos = ["@","#"]
+    trios = collect(zip(nomes,valores,simbolos))
+	print(trios)
+    dict = Dict(trios)
+end
+
+# ╔═╡ ae1c6030-ee97-48a5-95ee-95690158b752
+md"""
+**Aplicação — 8.6**
+
+Associe identificadores de documentos A e B aos anos fictícios 1905 e 1950. Depois inclua o tipo de fonte como terceiro campo e investigue o desafio dos trios.
+"""
+
+# ╔═╡ c38aa515-f223-4f0c-9936-9f3ed45eabb0
+md"""
+### Tarefa 8.7 — Como transformar processo em pipeline?
+
+**No Pluto:**
+- Aplique várias operações em sequência.
+- Nomeie cada etapa.
+- Interprete o resultado.
+
+*Por que importa:* A pipeline torna visível que resultados podem surgir de transformações encadeadas.
+"""
+
+# ╔═╡ ced88e76-4742-4247-84f1-39315f4b8fdb
+let
+    dados = [1,2,3,4]
+    resultado = sum(dados .^ 2)
+end
+
+# ╔═╡ 37cf390a-2828-4bcd-a40c-5ca360944aae
+let
+    dados = [1,2,3,4]
+	print(dados .^ 2)
+    resultado = sum(dados .^ 2)
+end
+
+# ╔═╡ ea063dca-0347-487f-956c-8f3ac83c13eb
+md"""
+**Aplicação — 8.7**
+
+Em contagens fictícias [1, 2, 3, 4], reproduza a sequência de elevar ao quadrado e somar. Discuta por que esse resultado não deve receber uma interpretação histórica sem justificativa.
+"""
+
+# ╔═╡ a3a4c451-559f-45db-a78d-b183fbbb3b3a
+md"""
+### Tarefa 8.8 — Como transformar texto em dados?
+
+**No Pluto:**
+- Quebre uma frase.
+- Conte palavras.
+- Interprete frequência.
+
+*Por que importa:* Texto também pode ser modelado como dados, aproximando linguagem e computação.
+"""
+
+# ╔═╡ 122647f3-3897-4eed-8c42-ae5cde305f84
+let
+    frase = "dados viram modelo"
+    palavras = split(frase)
+    length(palavras)
+end
+
+# ╔═╡ 3a4679f4-764f-4ca3-81d0-356b30304d25
+md"""
+**Aplicação — 8.8**
+
+Segmente a frase didática "a carta registra a viagem". Compare número de palavras e frequência; discuta os limites de representar um texto histórico apenas por contagens.
+"""
+
+# ╔═╡ 7dc2a6ed-c17d-4bdd-828d-739452bac316
+md"""
+### Tarefa 8.9 — Como transformar sem perder sentido?
+
+**No Pluto:**
+- Compare dado original e transformado.
+- Identifique informação preservada.
+- Identifique informação perdida.
+
+*Por que importa:* Transformações devem ser avaliadas pelo que tornam visível e pelo que ocultam.
+"""
+
+# ╔═╡ 0fa47197-a8c4-418b-a290-329fabbefa6e
+let
+    original = [1, 2, 3]
+    transformado = original .> 2
+end
+
+# ╔═╡ 0025812a-b187-4aa7-96e1-c7b17a2d312d
+md"""
+**Aplicação — 8.9**
+
+Transforme quantidades [1, 2, 3] de documentos em indicadores de quantidade maior que 2. Que informação sobre o acervo foi perdida?
+"""
+
+# ╔═╡ b33a8388-9831-49ef-9983-33cd3bb5df78
+md"""
+### Tarefa 8.10 — Como avaliar transformação de dados?
+
+**No Pluto:**
+- Peça regra, antes/depois e interpretação.
+- Solicite justificativa da escolha.
+- Analise adequação.
+
+*Por que importa:* Avaliar transformação é verificar se a nova forma ajuda a responder melhor à pergunta.
+"""
+
+# ╔═╡ 8b2cd76a-de6e-4073-b530-1b6f2a43c3fd
+let
+    registro = (antes="lista", depois="frequencia", regra="contar")
+end
+
+# ╔═╡ 90d0ce9c-b9cd-4f09-9617-53031d244e1b
+md"""
+**Aplicação — 8.10**
+
+Escolha uma transformação do acervo fictício e justifique sua adequação à pergunta de pesquisa, incluindo informação preservada e perdida.
+"""
+
+# ╔═╡ c2a34943-c9e8-4266-8e92-c8cfeadeb93a
+md"""
+### Tarefa 8.11 — Como traduzir português para espanhol?
+
+**No Pluto:**
+- Usar dicionario
+
+"""
+
+# ╔═╡ d414d65e-debd-45b8-be38-9579d1751368
+let
+	pt_para_esp = Dict("um" => "uno", "dois" => "dos", "três" => "tres")
+	println(pt_para_esp["dois"])
+	pt_para_esp["quatro"]
+end
+
+# ╔═╡ 5c08136b-24f7-4998-9204-5a1d9e88b5a1
+md"""
+
+##### Por que deu erro???  Vamos evoluir o código ?
+
+"""
+
+
+# ╔═╡ 482c44d2-355a-426e-a9b6-a311c847c1a7
+md"""
+**Aplicação — 8.11**
+
+Explore o dicionário português–espanhol do exemplo como um glossário de leitura. Explique por que palavras ausentes e contexto impedem tratar a consulta como tradução completa.
+"""
+
+# ╔═╡ 00000000-0000-0000-0000-000000000001
+PLUTO_PROJECT_TOML_CONTENTS = """
+[deps]
+"""
+
+# ╔═╡ 00000000-0000-0000-0000-000000000002
+PLUTO_MANIFEST_TOML_CONTENTS = """
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.10.12"
+manifest_format = "2.0"
+project_hash = "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+
+[deps]
+"""
+
+# ╔═╡ Cell order:
+# ╟─bcf6de1c-b464-451b-afec-89f9c0fb196c
+# ╟─601f4066-6839-4038-950e-8e80bbf246fc
+# ╟─7e23d48a-281a-4e5c-8c00-815c4e562b17
+# ╟─40ca6f35-8799-4c73-a8b7-ca1da75f0d5d
+# ╠═1c0a7cef-68c4-4e00-96f2-8ed9c4346294
+# ╠═9570febc-b6cf-4a7b-ba97-e774ce9f5d7c
+# ╠═481daae7-d4ef-4318-92c4-af8c36bd97f8
+# ╠═9107ab2b-b6b8-4dd4-b045-40cff43a6c4f
+# ╟─421dd964-4a4f-4475-9588-b4e99fd1411f
+# ╠═127c3fd9-4287-46c7-a714-009b947217d9
+# ╟─976b21bb-0687-4377-83bc-6573cca5e492
+# ╟─ad277bf4-6dca-417f-8121-78ccfe2d9ddf
+# ╟─2bfb01a8-9a11-467a-ae3a-67fa9537cbb5
+# ╠═2ed202f9-d6a6-4035-9d70-441d020b1cb1
+# ╠═d1481488-1c56-47b6-825a-8b49909f97a2
+# ╟─cc74c95b-2117-45ff-8189-79ba16d766c1
+# ╟─8a1355c5-8e36-42aa-bfa5-0fcabb7d9951
+# ╠═70f28559-16e4-4cef-bffa-57dc6726a55e
+# ╟─460bb2e8-37b6-4949-a704-a4bb431a6c3b
+# ╠═7bd3766e-e0b9-4111-830c-b5bd24745346
+# ╟─b6352530-c5d9-4124-a915-e36535c42357
+# ╟─a37d0f1e-51c5-4479-98ac-020efcf5ffae
+# ╠═bb186749-42c6-4be8-8d09-873085045714
+# ╟─4119e644-d001-4ce3-a9b9-26eb5fdda8ac
+# ╟─68ccfbc4-8414-4acf-a4ac-af052b4c146c
+# ╠═a3923b26-2c44-4c21-a09a-e0a23b6e3263
+# ╟─cd41f2ca-1d4a-4717-a41b-e48bff5e0c09
+# ╟─7e9f7451-4d22-4007-8cb7-4f199e267b69
+# ╠═63ddffdf-7d59-4da1-ac8e-a0a1ba2b3fcc
+# ╟─7a248a7c-ac7b-453a-bb52-5d0edff29aa3
+# ╠═2cc9fd7b-cf16-4422-9cfa-83a25076a7fc
+# ╠═2d749cd8-ed23-4993-8844-ed3e92d421db
+# ╟─200ba6c2-4755-425a-a521-f6844855cfcd
+# ╟─9cf5f07c-930b-4be9-8827-95a75dd0e0f3
+# ╠═b31b0487-c9a8-43fe-a3d5-2231c271013d
+# ╟─9e445e89-e128-415e-bcd8-8c2f0a2ac53e
+# ╠═4edac575-83b5-489d-b8c1-f3e05235020e
+# ╟─ae1c6030-ee97-48a5-95ee-95690158b752
+# ╟─c38aa515-f223-4f0c-9936-9f3ed45eabb0
+# ╠═ced88e76-4742-4247-84f1-39315f4b8fdb
+# ╠═37cf390a-2828-4bcd-a40c-5ca360944aae
+# ╟─ea063dca-0347-487f-956c-8f3ac83c13eb
+# ╟─a3a4c451-559f-45db-a78d-b183fbbb3b3a
+# ╠═122647f3-3897-4eed-8c42-ae5cde305f84
+# ╟─3a4679f4-764f-4ca3-81d0-356b30304d25
+# ╟─7dc2a6ed-c17d-4bdd-828d-739452bac316
+# ╠═0fa47197-a8c4-418b-a290-329fabbefa6e
+# ╟─0025812a-b187-4aa7-96e1-c7b17a2d312d
+# ╟─b33a8388-9831-49ef-9983-33cd3bb5df78
+# ╠═8b2cd76a-de6e-4073-b530-1b6f2a43c3fd
+# ╟─90d0ce9c-b9cd-4f09-9617-53031d244e1b
+# ╟─c2a34943-c9e8-4266-8e92-c8cfeadeb93a
+# ╠═d414d65e-debd-45b8-be38-9579d1751368
+# ╟─5c08136b-24f7-4998-9204-5a1d9e88b5a1
+# ╟─482c44d2-355a-426e-a9b6-a311c847c1a7
+# ╟─00000000-0000-0000-0000-000000000001
+# ╟─00000000-0000-0000-0000-000000000002
