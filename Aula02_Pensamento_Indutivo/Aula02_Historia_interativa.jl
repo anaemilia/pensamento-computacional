@@ -18,47 +18,162 @@ using PlutoUI
 
 # ╔═╡ 00000002-0000-4000-8000-000000000000
 md"""
-# Atividade — História
-## Pensamento Indutivo
+# Atividades — Transformações ao longo do Tempo
 
-**Situação:**
+## 🔄 O Raciocínio Histórico de Transformação
 
-Observe dois casos e o padrão entre eles:
+Em História, compreendemos as mudanças através de um processo que conecta:
 
-- O Brasil foi Colônia de 1500 a 1822: **1822 − 1500 = 322 anos**.
-- O Brasil foi Império de 1822 a 1889: **1889 − 1822 = 67 anos**.
+**Situação no passado → Acontecimento ou Processo Histórico → Nova Situação**
 
-O padrão (regra) que você pode *induzir* desses casos é: **duração = ano final − ano inicial**.
+**Exemplo:**
+- Trabalho artesanal → Revolução Industrial → Trabalho nas fábricas
 
-Agora aplique essa mesma regra: o Brasil foi República Velha de 1889 a 1930. Quantos anos durou a República Velha?
+---
+
+## 📚 Tarefas de Transformação
+"""
+
+# ╔═╡ 00000003-0000-4000-8000-000000000000
+md"""
+### 1️⃣ Antes e depois da agricultura
+
+Explique como a vida dos grupos humanos mudou depois do desenvolvimento da agricultura. Compare alimentação, moradia e modo de vida.
+
+**Situação no passado → Desenvolvimento da agricultura → Nova situação**
+"""
+
+# ╔═╡ 00000004-0000-4000-8000-000000000000
+md"""
+### 2️⃣ Transformações nas cidades
+
+Observe uma imagem de uma cidade antiga e uma cidade atual. Escreva três mudanças que ocorreram ao longo do tempo.
+
+**Situação no passado → Urbanização e desenvolvimento → Nova situação**
+"""
+
+# ╔═╡ 00000005-0000-4000-8000-000000000000
+md"""
+### 3️⃣ Do trabalho escravizado ao trabalho livre
+
+Explique quais mudanças ocorreram nas relações de trabalho no Brasil após a abolição da escravidão.
+
+**Trabalho escravizado → Abolição da escravidão (1888) → Relações de trabalho livres**
 """
 
 # ╔═╡ 00000006-0000-4000-8000-000000000000
 md"""
-### 🔎 Onde está o conceito (pensamento indutivo)?
+### 4️⃣ Revolução Industrial
 
-- **Casos observados:** duração da Colônia (1822 − 1500 = 322) e do Império (1889 − 1822 = 67).
-- **Padrão induzido:** duração = ano final − ano inicial.
-- **Aplicação a um novo caso:** a duração da República Velha (1889 a 1930), usando o mesmo padrão.
+Como o trabalho das pessoas se transformou com o surgimento das máquinas e das fábricas?
+
+**Trabalho artesanal → Revolução Industrial → Trabalho nas fábricas**
 """
 
-# ╔═╡ 00000003-0000-4000-8000-000000000000
-md"Digite a duração em anos:"
+# ╔═╡ 00000007-0000-4000-8000-000000000000
+md"""
+### 5️⃣ Meios de transporte
 
-# ╔═╡ 00000004-0000-4000-8000-000000000000
-@bind duracaoRepublicaVelha NumberField(0:200, default=0)
+Compare os meios de transporte utilizados no passado com os atuais. O que mudou? O que permaneceu?
 
-# ╔═╡ 00000005-0000-4000-8000-000000000000
-if duracaoRepublicaVelha == 1930 - 1889
-    HTML("<div style='color:#1a7a3c;font-weight:600;padding:8px;background:#eaf7ee;border-radius:6px;'>✅ Isso mesmo! 1930 − 1889 = 41 anos.</div>")
-else
-    HTML("<div style='color:#b3261e;font-weight:600;padding:8px;background:#fbeceb;border-radius:6px;'>❌ Ainda não — aplique a regra induzida: ano final menos ano inicial.</div>")
-end
+**Transportes primitivos → Inovações tecnológicas → Transportes modernos**
+"""
 
-# ╔═╡ Cell order:
-# ╠═00000001-0000-4000-8000-000000000000
-# ╠═00000002-0000-4000-8000-000000000000
-# ╠═00000006-0000-4000-8000-000000000000
-# ╠═00000003-0000-4000-8000-000000000000
-# ╠═00000004-0000-4000-8000-000000000000
-# ╠═00000005-0000-4000-8000-000000000000
+# ╔═╡ 00000008-0000-4000-8000-000000000000
+md"""
+### 6️⃣ Comunicação ao longo do tempo
+
+Organize em ordem histórica: carta, telégrafo, telefone, celular e internet. Depois explique como essas mudanças transformaram a comunicação entre as pessoas.
+
+**Comunicação oral/manuscrita → Meios eletrônicos → Comunicação digital**
+"""
+
+# ╔═╡ 00000009-0000-4000-8000-000000000000
+md"""
+### 7️⃣ Mudanças na escola
+
+Pergunte a uma pessoa mais velha como era a escola na época em que ela estudava. Compare com a escola atual e registre as principais transformações.
+
+**Escola do passado → Inovações pedagógicas e tecnológicas → Escola atual**
+"""
+
+# ╔═╡ 00000010-0000-4000-8000-000000000000
+md"""
+### 8️⃣ Transformação das moradias
+
+Como as formas de moradia mudaram desde as primeiras comunidades humanas até as cidades atuais?
+
+**Habitações primitivas → Desenvolvimento urbano → Habitações modernas**
+"""
+
+# ╔═╡ 00000011-0000-4000-8000-000000000000
+md"""
+### 9️⃣ Mudanças provocadas pela chegada dos portugueses
+
+Como a chegada dos portugueses transformou a vida dos povos indígenas que já habitavam o território brasileiro?
+
+**Povos indígenas isolados → Colonização portuguesa → Nova configuração social e econômica**
+"""
+
+# ╔═╡ 00000012-0000-4000-8000-000000000000
+md"""
+### 🔟 Transformações no campo
+
+Compare o trabalho agrícola feito com ferramentas manuais com a agricultura mecanizada. Quais mudanças ocorreram?
+
+**Agricultura familiar/manual → Mecanização → Agronegócio/agricultura industrial**
+"""
+
+# ╔═╡ 00000013-0000-4000-8000-000000000000
+md"""
+### 1️⃣1️⃣ Linha do tempo das transformações
+
+Escolha um objeto, como telefone, televisão, carro ou computador. Faça uma linha do tempo mostrando como ele se transformou.
+
+**Objeto primitivo/inexistente → Inovações sucessivas → Objeto atual**
+"""
+
+# ╔═╡ 00000014-0000-4000-8000-000000000000
+md"""
+### 1️⃣2️⃣ Mudança e permanência
+
+Escolha uma festa, costume ou tradição da sua comunidade. Identifique:
+- Como era antigamente
+- Como é atualmente
+- O que mudou
+- O que permaneceu
+
+**Tradição histórica → Adaptações culturais → Tradição contemporânea**
+"""
+
+# ╔═╡ 00000015-0000-4000-8000-000000000000
+md"""
+### 1️⃣3️⃣ Reflexão Final
+
+Escolha uma das transformações estudadas acima e analise:
+
+1. **Qual era a situação no passado?**
+2. **Qual foi o acontecimento ou processo que causou a transformação?**
+3. **Qual é a situação atual?**
+4. **Como você explica essa transformação?**
+
+---
+
+## 📖 Resumo do Raciocínio
+
+O pensamento histórico sobre transformações segue sempre este padrão:
+
+```
+Situação no passado 
+        ↓
+Acontecimento/Processo Histórico
+        ↓
+Nova Situação
+```
+
+Compreender esse raciocínio nos ajuda a:
+- Reconhecer que mudanças têm causas
+- Identificar permanências (o que não mudou)
+- Avaliar impactos das transformações na sociedade
+- Desenvolver pensamento crítico sobre o presente
+"""
